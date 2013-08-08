@@ -1,0 +1,7 @@
+name: CodeCatz
+pygments: true
+
+markdown:      maruku
+markdown_ext:  markdown,mkd,mkdn,md
+textile_ext:   textile
+
