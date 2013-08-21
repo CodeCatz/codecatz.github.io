@@ -21,10 +21,19 @@ Yeah, it sounds a bit complicated, but it will be kitten play once you get it in
 
 ![Git forking workflow]({{ site.url }}/assets/img/git-fork-workflow.jpg)
 
-The litterbox wiki now has a [Wishlist](https://github.com/CodeCatz/litterbox/wiki/Wish-list-and--ideas) of topics we'd like to explore. Feel free to add, explore the topics during the week and impress us at the next meeting. Whoop!
+The litterbox wiki now has a [Wish list](https://github.com/CodeCatz/litterbox/wiki/Wish-list-and--ideas) of topics we'd like to explore. Feel free to add, explore the topics during the week and impress us at the next meeting. Whoop!
 
 Keep on coding, Catz!
 
+## Homework
+
+Until next week:
+
+- pimp up your complexicator web app if you want to;
+- cover most of the Learn Python the Hard Way lessons, we'd like to talk about Object Oriented Programming;
+- take a look at the wish list and explore one of the topics on your own;
+- think of other cool things you'd like to do;
+- bonus points: learn how to fork the kibble repo.
 
 
 *P.S.: I'm sure there be typos in this post. Why don't you fix them?*
