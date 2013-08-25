@@ -12,9 +12,9 @@ hide_subdirindex: true
   </h2>
 
   {% if content != '' %}
-  <p class="preamble">
+  <div class="container">
     {{ content }}
-  </p>
+  </div>
   {% endif %}
 
   {% capture url_prefix %}{{ page.url | remove_first:'index.html' }}{% endcapture %}
