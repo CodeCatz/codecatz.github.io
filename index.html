@@ -1,27 +1,10 @@
 ---
 layout: default
-title: CodeCatz learning to code
+title: CodeCatz
 ---
-
-<div id="home">
-  <h1>Catz said</h1>
+<div class="cover_home">
+<div class="page_dscr"><p>We CodeCatz are learning to code. </br>
+We are doing it beause we can and because we want to!</p>
 </div>
-
-{% for post in site.posts %}
-<hr />
-<div class="row">
-	<div class="col-sm-5">
-	    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-	          <p class="author">
-	            <span class="date">{{ post.date | date_to_string }}</span>
-	          </p>
-	</div>
-	<div class="col-sm-7">
-	          <p>
-	            {{ post.excerpt }}
-	          </p>
-	          <p class="pull-right"><a href="{{ post.url }}">&gt;&gt; Read more</a></p>    
-     </div>
-     
+<img class="illustrate catz_test" src="/assets/img/illustrations/catz_test_fill.png" >
 </div>
-{% endfor %}

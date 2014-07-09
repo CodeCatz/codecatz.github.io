@@ -1,161 +1,189 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
-
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
+*{
+box-sizing: -webkit-border-box;
+box-sizing: -moz-border-box;
+box-sizing: border-box;
 }
 
-html, body { height: 100%; }
+html {
+width: 100%;
+}
 
-/*body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
-}*/
+body {
+margin:0;
+background-color: white;
+color: black;
+text-rendering: optimizelegibility;
+}
 
-/*h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+a {
+text-decoration: none;
+color: white;
+}
+
+
+/* HEADER */
+
+header {
+background-color: white;
+height: auto;
+width: 100%;
+z-index: 1;
+}
+
+.header {
+color: rgba(183,72,38,0.8);
+font-size: 2.5em; 
+display: table;
+margin: 0 auto;
+}
+
+.title {
+font-family: 'Sue Ellen Francisco', cursive;
+font-weight: 300;
+line-height: 1;
+display: inline-block;
+padding: 0; 
+text-transform: uppercase;
+}
+
+.paw {
+display: inline-block;
+height: 2em;
+width: auto;
+}
+
+footer {
+background-color: rgba(33,33,33,1);
+height: auto;
+width: 100%;
+z-index: 1;
+position: relative;
+text-align: center;
+display: table;
+}
+
+.footer {
+color: rgba(183,72,38,0.8);
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+font-size: 2.5em; 
+display: inline-block;
+padding: 1.5em;
+}
+
+
+/* NAVIGATION */
+
+/**
+* Tabs object.
+*
+* 1. Tables (kinda) for layout!
+* 2. This is the magic bit; make all children occupy equal width.
+* 3. Required to make the tabs fill their container.
+* 4. Make each tab pack up horizontally.
+* 5. Ensure the hit area covers the whole tab.
 */
 
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
-
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
-
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
+.nav {
+font-family: 'Open Sans', sans-serif;
+line-height: 2;
+font-size: 1.5em;
+font-weight: 300;
 }
 
-ul.posts li {
-  line-height: 1.75em;
+
+.tabs {
+margin:  0;
+padding: 0;
+list-style: none;
+display: table; /* [1] */
+table-layout: fixed; /* [2] */
+width: 100%; /* [3] */
 }
 
-ul.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+.tabs-button {
+display: table-cell; /* [4] */
 }
 
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
+.tabs-link {
+display: block; /* [5] */
 }
 
-.site .header a {
-  font-weight: bold;
-  text-decoration: none;
+/**
+* Primary nav. Extends `.tabs`.
+*
+* 1. Stop tabs’ corners leaking out beyond our 4px round.
+*/
+.primary-nav {
+text-align: center;
+overflow: hidden; /* [1] */
 }
 
-.site .header h1.title {
-  display: inline-block;
-  margin-bottom: 2em;
+.primary-nav a {
+padding: 0;
+background-color: rgba(33,33,33,1);
+color: #fff;
+text-decoration: none;
 }
 
-.site .header h1.title a {
-  color: #a00;
+.primary-nav a:hover {
+background-color: rgba(183,72,38,1);
 }
 
-.site .header h1.title a:hover {
-  color: #000;
+/* CONTENT */
+
+section {
+color: white;
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
 }
 
-.site .header a.extra {
-  color: #aaa;
-  margin-left: 1em;
+.illustrate {
+height: auto;
+display: inline-block;
+padding: 5em 2.5em 2.5em 2.5em;
 }
 
-.site .header a.extra:hover {
-  color: #000;
+.container {
+margin: 0 auto;
+width: 100%;
 }
 
-.site .meta {
-  color: #aaa;
+.page_dscr {
+width: 20em;
+max-width: 75%;
+height: auto;
+display: inline-block;
+font-size: 1.5em;
+vertical-align: 5em;
+margin-left: 5em;
+margin-top: 2em;
+padding: 1em;
+background-color: rgba(183,72,38,0.7);
 }
 
-.site .footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
+.button {
+background-color: rgba(33,33,33,1);
+width: 100%;
+height: auto;
+display: block;
+padding: 0.5em;
+text-align: center;
 }
 
-.site .footer .contact {
-  float: left;
-  margin-right: 3em;
+.button:hover {
+background-color: rgba(183,72,38,1);
 }
 
-.site .footer .contact a {
-  color: #8085C1;
+.cover {
+background: 
+linear-gradient(
+  rgba(255, 255, 255, 0.0),
+  rgba(255, 255, 255, 0.5), 
+  rgba(183,72,38,1)
+),
+
+url() no-repeat center top fixed; ;
+background-size: cover;
 }
 
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.site .footer .rss img {
-  border: 0;
-}
-
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
-
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
-
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-
-.post pre code {
-  border: none;
-}
-
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-.post pre.terminal code {
-  background-color: #333;
-}
