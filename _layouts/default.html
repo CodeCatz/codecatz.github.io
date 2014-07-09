@@ -3,75 +3,50 @@
     <head>
         <meta charset="utf-8">
         <meta name="description" content="Programming kittens learning to code. Mostly girls." />
-
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-
-	     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="/bootstrap/css/bootstrap-glyphicons.css"/>
+        <meta name="viewport" content="width=device-width">  
         <link rel="stylesheet" href="/css/custom.css"/>
-
-	<!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+        <link rel="stylesheet" href="/css/main.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco|Open+Sans:400,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     </head>
     <body>
-
-
-<nav class="navbar navbar-default navbar-static-top" role="navigation">
-  <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="/">CodeCatz</a>
-  </div>
-
-  <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse navbar-ex1-collapse">
-    <ul class="nav navbar-nav">
-          <li ><a href="/catz">Meet the Catz</a></li>
-          <li><a href="/manifesto">Manifesto</a></li>
-    </ul>
-    
-  </div><!-- /.navbar-collapse -->
+<header>
+  <div class="header">
+          <h1 class="title">{{ page.title }}</h1>
+          <img src="/assets/img/illustrations/paw_fill_gray.png" class="paw">
+  </div> 
+</header>
+<nav class="nav">
+<ul class="tabs primary-nav">
+    <li class="tabs-button">
+      <a class="tabs-link" href="/">home</a>
+    </li>
+    <li class="tabs-button">
+      <a class="tabs-link" href="/catz">catz & kittens </a>
+    </li>
+    <li class="tabs-button">
+      <a class="tabs-link" href="/manifesto">manifesto</a>
+    </li>
+    <li class="tabs-button">
+      <a class="tabs-link" href="/meetups">meetups</a>
+    </li>
+    <li class="tabs-button">
+      <a class="tabs-link" href="https://github.com/CodeCatz">github</a>
+    </li>
+</ul>
 </nav>
-
-
-<div class="jumbotron" id="main-jumbo">
-      <div class="container">
-        <div class="pull-left">
-          <img src="/assets/codecatz.png" class="img-rounded">
-      </div>
-        <h1>{{ site.name }}</h1>
-        <p>Programming kittens learning to code. Mostly girls.</p>
-        <a href="http://github.com/CodeCatz" class="btn btn-outline btn-large">Visit us on GitHub</a>
-      </div>
-    </div>
-
-
-
+<section>
         <div class="container">
-
                 {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  <hr/>
-                  CodeCatz: Kittens learning to code like Catz<br />
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/codecatz/">http://github.com/codecatz</a><br />
-                </p>
-              </div>
-            </div>
-        </div> <!-- /container -->
+        </div>
+</section>
+<footer >
+  <img src="/assets/img/illustrations/paw_fill_white.png" class="paw">
+  <div class="footer">CodeCatz: Kittens learning to code like Catz</div>
+  <img src="/assets/img/illustrations/paw_fill_white.png" class="paw">
+</footer>
+</div> <!-- /container -->
   <script src="/js/jquery-1.10.2.min.js"></script>
   <script src="/bootstrap/js/bootstrap.js"></script>
     </body>
