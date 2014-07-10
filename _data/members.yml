@@ -1,0 +1,24 @@
+- name: Erika
+  role: the Cat
+  image: Erika_the_Cat.png
+  description: Coming soon
+  twitter: ercchy
+  github: ercchy
+- name: Alja
+  role: the Cat
+  image: Alja_the_Cat.png
+  description: Coming soon
+  twitter: iAlja
+  github: iAlja
+- name: Mateja
+  role: the Cat
+  image: Mateja_the_Cat.png
+  description: Coming soon
+  twitter: Sparkica
+  github: Sparkica
+- name: Goran
+  role: the Cat
+  image: Goran_the_Cat.png
+  description: Coming soon
+  twitter: goranche
+  github: goranche

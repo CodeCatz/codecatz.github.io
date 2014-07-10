@@ -13,6 +13,6 @@ title: What are the CodeCatz doing?
      		<a class="tabs-link" href="http://lastlemon.com/wordpress/wp-content/uploads/MA064.gif">more</a> 
 		</div>
 	</div>
-		<img class="illustrate catz_back" src="/assets/img/illustrations/catz_back_fill.png" >
+		<img class="illustrate catz_back" src="/assets/images/illustrations/catz_back_fill.png" >
 </div>
 

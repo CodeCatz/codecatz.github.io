@@ -12,5 +12,5 @@ title: Who are the CodeCatz?
      		<a class="tabs-link" href="/members">members</a> 
 		</div>
 	</div>
-	<img class="illustrate catz_nerd" src="/assets/img/illustrations/catz_nerd_fill.png" >
+	<img class="illustrate catz_nerd" src="/assets/images/illustrations/catz_nerd_fill.png" >
 </div>

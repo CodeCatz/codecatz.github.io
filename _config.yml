@@ -1,9 +1,18 @@
-name: CodeCatz
-pygments: true
-
-markdown:      kramdown
-markdown_ext:  markdown,mkd,mkdn,md
-textile_ext:   textile
+# Site settings
+title: CodeCatz
+email:
+description: "Girls Learning to Code"
 baseurl: ""
+url: "http://codecatz.github.io/"
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+
+sass:
+    sass_dir: _sass
+    style: compressed
 
 
