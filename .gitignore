@@ -1,1 +1,8 @@
 _site/
+.idea
+.sass-cache
+vendor
+*.gem
+*.rbc
+.bundle
+Gemfile.lock
