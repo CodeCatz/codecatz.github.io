@@ -5,7 +5,7 @@ title: Our meetups recaps!
 
 
 {% for post in site.posts %}
-<div class="container">
+<div class="container-fluid">
 	<div class="meetup">
 		<h3><a href="{{ post.url }}">{{ post.title }}</a>
 			<div class="date">
@@ -18,7 +18,7 @@ title: Our meetups recaps!
 		{{ post.excerpt }}
 		</p>
 		<p class="post-nav">
-			<a href="{{ post.url }}">Read more</a>
+			<a href="{{ post.url }}">>>Read more</a>
 		</p>
 	</div>
 	<div class="break"></div> 

@@ -3,14 +3,17 @@ layout: default
 title: Catz & Kittens
 ---
 
-<div class="cover">
-	<div class="members">
+<div class="container-fluid cover">
+	<div class="row">
 		{% for member in site.data.members %}
-			<div class="catz">
-				<a class="cat_name" href="/members/{{ member.name|downcase }}/">
-					<img class="catz_img" src="/assets/images/illustrations/kitkat1.png">
-					{{ member.name }}</a>
-			</div>
+		<div class="col-md-3">
+				<div class="catz">
+					<a class="cat_name" href="/members/{{ member.name|downcase }}/">
+						<img class="catz_img" src="/assets/images/illustrations/kitkat1.png">
+						{{ member.name }}
+					</a>
+				</div>
+		</div>
 		{% endfor %}
 	</div>
 </div>

@@ -8,6 +8,7 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="/assets/stylesheet/custom.css" />
 	<link rel="stylesheet" href="/assets/stylesheet/main.css" />
+	<link rel="stylesheet" href="/assets/stylesheet/bootstrap-3.2.0-dist/css/bootstrap.css" />
 	<link
 			href='http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco|Open+Sans:400,300&subset=latin,latin-ext'
 			rel='stylesheet' type='text/css'>
@@ -19,29 +20,32 @@
 		<img src="/assets/images/illustrations/paw_fill_gray.png" class="paw">
 	</div>
 </header>
+<div class="container-fluid">
 <nav class="nav">
-	<ul class="tabs primary-nav">
-		<li class="tabs-button">
+	<div class="row tabs primary-nav">
+		<div class="col-md-2">
 			<a class="tabs-link" href="/">home</a>
-		</li>
-		<li class="tabs-button">
+		</div>
+		<div class="col-md-2">
 			<a class="tabs-link" href="/catz">catz & kittens </a>
-		</li>
-		<li class="tabs-button">
+		</div>
+		<div class="col-md-2">
 			<a class="tabs-link" href="/manifesto">manifesto</a>
-		</li>
-		<li class="tabs-button">
+		</div>
+		<div class="col-md-2">
 			<a class="tabs-link" href="/meetups">meetups</a>
-		</li>
-		<li class="tabs-button">
+		</div>
+		<div class="col-md-2">
+			<a class="tabs-link" href="/contact">contact</a>
+		</div>
+		<div class="col-md-2">
 			<a class="tabs-link" href="https://github.com/CodeCatz">github</a>
-		</li>
-	</ul>
-</nav>
-<section>
-	<div class="container">
-		{{ content }}
+		</div>
 	</div>
+</nav>
+</div>
+<section>
+		{{ content }}
 </section>
 <footer>
 	<img src="/assets/images/illustrations/paw_fill_white.png" class="paw">
