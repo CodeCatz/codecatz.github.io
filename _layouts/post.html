@@ -1,9 +1,12 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p>{{ page.date | date_to_string }}</p>
-
-<div class="container-fluid cover">
-{{ content }}
+<div class="container-fluid cover body-text">
+	<h2 class="meetup">{{ page.title }}</h2>
+		<p class="date">
+			{{ page.date | date_to_string }}
+		</p>
+		<p class="post">
+			{{ content }}
+		</p>
 </div>
