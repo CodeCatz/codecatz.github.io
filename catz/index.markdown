@@ -6,7 +6,7 @@ title: Who are the CodeCatz?
 
 <div class="container-fluid cover_catzkittenz">
 	<div class="row">
-		<div class="col-md-4">
+		<div class="col-md-4 blank-space">
 			<div class="page_dscr">
 				<p>We are a group of programming kittens and several slightly more experienced cats.
 				</p>

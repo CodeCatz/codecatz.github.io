@@ -5,7 +5,7 @@ title: What are the CodeCatz doing?
 
 <div class="container-fluid cover_manifesto">
 	<div class="row">
-		<div class="col-md-4">
+		<div class="col-md-4 blank-space">
 			<div class="page_dscr">This is our manifesto.
 				<p>1. Chocolate is always welcome! </p>
     			<p>.</p>

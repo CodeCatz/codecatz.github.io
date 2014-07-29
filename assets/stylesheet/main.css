@@ -76,7 +76,6 @@ display: inline-block;
 padding: 1em;
 }
 
-
 .nav {
 font-family: 'Open Sans', sans-serif;
 line-height: 2;
@@ -118,6 +117,10 @@ background-color: rgba(118, 184, 82, 0.75);
 padding: 1em;
 }
 
+.blank-space {
+	padding: 4em;
+}
+
 .button {
 background-color: rgba(33,33,33,1);
 width: 100%;
@@ -152,9 +155,9 @@ background-size: cover;
 }
 
 .illu {
-max-width: 100%;
-padding: 0 4em;
-margin-top: 2em;
+max-width: 85%;
+padding: 4.5em;
+margin-top: 4.5em;
 }
 
 
