@@ -5,7 +5,7 @@
 	linear-gradient(
 	rgba(255, 255, 255, 0.0),
 	rgba(255, 255, 255, 0.5), 
-	rgba(118, 184, 82, 0.75)
+	rgba(183, 72, 38, 0.75)
 	),
 
 	url(Code_Catz_Cover.jpg) no-repeat center top fixed; ;
@@ -30,7 +30,7 @@
 	linear-gradient(
 	rgba(255, 255, 255, 0.0),
 	rgba(255, 255, 255, 0.5), 
-	rgba(118, 184, 82, 0.75)
+	rgba(183, 72, 38, 0.75)
 	),
 
 	url(catz2.jpg) no-repeat center top fixed;
@@ -43,7 +43,7 @@
 	}
 
 .cat_name {
-	color: rgba(118, 184, 82, 1);
+	color: rgba(183, 72, 38, 1);
 	font-family: 'Sue Ellen Francisco', cursive;
 	font-size: 2.5em;
 	display: block;
@@ -60,7 +60,8 @@
 
 .the_cat {
 	max-width: 100%;
-	padding: 4em;
+	margin: 1em auto;
+	padding: 1.5em;
 	}
 
 /* MANIFESTO */
@@ -70,7 +71,7 @@
 	linear-gradient(
 	rgba(255, 255, 255, 0.0),
 	rgba(255, 255, 255, 0.5), 
-	rgba(118, 184, 82, 0.75)
+	rgba(183, 72, 38, 0.75)
 	),
 
 	url(catz4.jpg) no-repeat center top fixed;
@@ -94,21 +95,21 @@
 	font-family: 'Sue Ellen Francisco', cursive;
 	line-height: 1;
 	font-weight: 400;
-	color: rgba(118, 184, 82, 1);;
+	color: rgba(183, 72, 38, 1);;
 	display: table;
 	text-transform: uppercase;
 	width: 100%;
 	}
 
 .post a {
-	color: rgba(118, 184, 82, 1);;
+	color: rgba(183, 72, 38, 1);;
 	}
 
 .date {
 	display: inline-block;
 	font-size: 1em;
 	padding: 0.3em;
-	background-color: rgba(118, 184, 82, 0.5);;
+	background-color: rgba(183, 72, 38, 0.5);;
 	}
 
 .post {
@@ -119,7 +120,7 @@
 	}
 
 h2 a{
-	border-bottom: solid 0.1em rgba(118, 184, 82, 1);
+	border-bottom: solid 0.1em rgba(183, 72, 38, 1);
 	font-size: 1em;
 	display: inline-block;
 	padding: 0.3em;
@@ -133,7 +134,7 @@ h2 a{
 
 .post-nav a {
 	padding: 0.2em 1em;
-	color: rgba(118, 184, 82, 1);
+	color: rgba(183, 72, 38, 1);
 	text-decoration: none;
 	}
 

@@ -1,26 +1,21 @@
-a {
-	text-decoration: none;
-	color: rgba(183, 72, 38, 1);
-	}
 
-ul {
-	display: table;
-	}
-
-li {
-	display: inline-block;
-	}
 
 /* HEADER */
 
+header {
+	background-color: white;
+	width: 100%;
+	z-index: 1;
+	}
+
 .header {
 	color: rgba(183, 72, 38, 1);
-	font-size: 2em; 
 	display: table;
-	margin: 0 auto;
+	margin: 1em auto;
 	}
 
 .title {
+	font-size: 3.5em;
 	font-family: 'Sue Ellen Francisco', cursive;
 	font-weight: 300;
 	line-height: 1;
@@ -28,10 +23,11 @@ li {
 	text-transform: uppercase;
 	}
 
-.paw {
+.logo {
 	display: inline-block;
-	height: 2em;
+	height: 6em;
 	width: auto;
+	padding: 1em;
 	}
 
 footer {
