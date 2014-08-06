@@ -5289,6 +5289,150 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+* {
+  box-sizing: -webkit-border-box;
+  box-sizing: -moz-border-box;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: #b74826; }
+
+a:hover {
+  text-decoration: none;
+  color: #b74826; }
+
+ul {
+  display: table; }
+
+li {
+  display: inline-block; }
+
+/* HOME */
+.cover_home {
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(183, 72, 38, 0.75)), url(/assets/images/backgrounds/Code_Catz_Cover.jpg) no-repeat center top fixed;
+  background-size: cover; }
+
+/* CATZ & KITTENs */
+.members {
+  display: table;
+  margin: 0 auto;
+  height: auto; }
+
+.catz {
+  display: inline-block;
+  padding: 2em; }
+
+.cover_catzkittenz {
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(183, 72, 38, 0.75)), url(/assets/images/backgrounds/catz2.jpg) no-repeat center top fixed;
+  background-size: cover; }
+
+.catz_img {
+  width: 100%;
+  display: block; }
+
+.cat_name {
+  color: #b74826;
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 2.5em;
+  display: block;
+  width: 75%;
+  text-align: center; }
+
+.cat_name:hover {
+  color: #212121; }
+
+/* MEMBERS */
+.the_cat {
+  max-width: 100%;
+  margin: 1em auto;
+  padding: 1.5em; }
+
+/* MANIFESTO */
+.cover_manifesto {
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(183, 72, 38, 0.75)), url(/assets/images/backgrounds/catz4.jpg) no-repeat center top fixed;
+  background-size: cover; }
+
+.catz_back {
+  width: 60em;
+  max-width: 100%; }
+
+.manifesto {
+  text-align: center;
+  margin-top: 2.5em; }
+
+/* MEETUPS */
+.full-width {
+  padding: 0; }
+
+.meetup, h2 {
+  font-family: 'Sue Ellen Francisco', cursive;
+  line-height: 1;
+  font-weight: 400;
+  color: #b74826;
+  display: table;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 0 5px; }
+
+.post a {
+  color: #b74826; }
+
+.date {
+  display: inline-block;
+  font-size: 0.75em;
+  padding: 0.3em;
+  background-color: rgba(183, 72, 38, 0.5);
+  border-bottom: solid 0.1em #b74826; }
+
+.post {
+  color: black;
+  font-size: 1.2em;
+  width: 100%;
+  height: auto;
+  padding: 1em; }
+
+h2 a {
+  border-bottom: solid 0.1em #b74826;
+  font-size: 0.75em;
+  display: inline-block;
+  padding: 0.3em; }
+
+.post-nav {
+  text-align: left;
+  font-size: 0.9em;
+  font-family: 'Open Sans', sans-serif; }
+
+.post-nav a {
+  padding: 0.2em 1em;
+  color: #b74826;
+  text-decoration: none; }
+
+.post-nav a:hover {
+  background-color: #212121; }
+
+.break {
+  top: 0;
+  width: 100%;
+  height: 0.2em;
+  background-color: #212121; }
+
+.body-text {
+  color: #212121; }
+
+/*
+RGB USED:;
+#2ecc71
+rgba(118, 184, 82, 1);
+rgba(46, 204, 113, 1)
+rgba(111,31,30,1);
+rgba(186,168,152,1);
+rgba(33,33,33,1);
+
+rgba(183,72,38,1);
+
+rgba(162, 131, 104,1);
+*/
 /* HEADER */
 header {
   background-color: white;
@@ -5301,16 +5445,22 @@ header {
   margin: 1em auto; }
 
 .title {
-  font-size: 3.5em;
+  font-size: 5em;
   font-family: 'Sue Ellen Francisco', cursive;
   font-weight: 300;
-  line-height: 1;
   display: inline-block;
   text-transform: uppercase; }
 
-.logo {
+.logo-header {
   display: inline-block;
-  height: 6em;
+  height: 7em;
+  width: auto;
+  margin-top: -3em;
+  padding: 1em; }
+
+.logo-footer {
+  display: inline-block;
+  height: 7em;
   width: auto;
   padding: 1em; }
 
@@ -5326,15 +5476,18 @@ footer {
   color: #b74826;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 2em;
+  font-size: 1.5em;
   display: inline-block;
-  padding: 1em; }
+  padding: 1.5em; }
 
 .nav {
   font-family: 'Open Sans', sans-serif;
   line-height: 2;
   font-size: 1.5em;
   font-weight: 300; }
+
+.tabs {
+  padding: 0; }
 
 .tabs-link {
   display: block; }
@@ -5359,13 +5512,10 @@ section {
   font-weight: 300; }
 
 .page_dscr {
-  margin: 1em auto;
+  margin: 2em;
   font-size: 1.5em;
   background-color: rgba(183, 72, 38, 0.75);
   padding: 1.5em; }
-
-.blank-space {
-  padding: 4em; }
 
 .button {
   background-color: #212121;
