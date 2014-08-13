@@ -13,7 +13,7 @@ On a somehow related note…
 
 [![jQuery vs usability]({{ site.url }}/assets/img/jquery-usability.png)](http://james.padolsey.com/javascript/javascript-libraries-vs-usability/)
 
-## Homework
+#### Homework
 
 Most of our web apps still need [jQuery validation](http://jqueryvalidation.org). Check out [the example in kibble](https://github.com/CodeCatz/kibble/tree/master/jQuery/2013-08-28-jquery-form-validation) and follow along. Try to find some other cool things to learn and share with the Catz.
 
