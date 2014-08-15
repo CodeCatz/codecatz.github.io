@@ -23,6 +23,17 @@ a:hover {
 	color: $primary-color;
 }
 
+.container-fluid {
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+.nav-container {
+	padding: 0;
+	margin: 0;
+}
+
 
 /* HEADER */
 
@@ -47,9 +58,9 @@ h1 {
 }
 
 header img {
-	height: 6em;
+	height: 7em;
 	width: auto;
-	padding: $rhythm * 2;
+	padding: $rhythm * 2 $rhythm * 2;
 	margin-top: -3em;
 	display: inline-block;
 }
@@ -62,6 +73,7 @@ section {
 	font-weight: 300;
 	color: $secondary-color;
 	overflow: hidden;
+	padding: 0;
 }
 
 .page-dscr {
@@ -91,8 +103,9 @@ footer {
 }
 
 footer img {
-	height: 3em;
+	height: 4em;
 	margin-top: 0;
+	padding: $rhythm * 2;
 }
 
 .footer-text {
@@ -112,6 +125,13 @@ footer img {
 	font-size: 1.5em;
 	font-weight: 300;
 	line-height: 2;
+}
+
+.nav-small {
+	font-family: $body-font;
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 1;
 }
 
 .tabs {
@@ -138,9 +158,6 @@ footer img {
 	background-color: $primary-color;
 }
 
-.xs-tabs {
-	padding: 1.2em;
-}
 
 .button {
 	width: 100%;

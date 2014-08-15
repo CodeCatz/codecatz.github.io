@@ -5311,6 +5311,15 @@ a:hover {
   text-decoration: none;
   color: #b74826; }
 
+.container-fluid {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden; }
+
+.nav-container {
+  padding: 0;
+  margin: 0; }
+
 /* HEADER */
 header {
   width: 100%;
@@ -5330,9 +5339,9 @@ h1 {
   display: inline-block; }
 
 header img {
-  height: 6em;
+  height: 7em;
   width: auto;
-  padding: 1em;
+  padding: 1em 1em;
   margin-top: -3em;
   display: inline-block; }
 
@@ -5341,7 +5350,8 @@ section {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   color: #212121;
-  overflow: hidden; }
+  overflow: hidden;
+  padding: 0; }
 
 .page-dscr {
   font-size: 1.5em;
@@ -5365,8 +5375,9 @@ footer {
   display: table; }
 
 footer img {
-  height: 3em;
-  margin-top: 0; }
+  height: 4em;
+  margin-top: 0;
+  padding: 1em; }
 
 .footer-text {
   font-family: "Open Sans", sans-serif;
@@ -5382,6 +5393,12 @@ footer img {
   font-size: 1.5em;
   font-weight: 300;
   line-height: 2; }
+
+.nav-small {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1; }
 
 .tabs {
   padding: 0; }
@@ -5401,9 +5418,6 @@ footer img {
 
 .primary-nav a:hover {
   background-color: #b74826; }
-
-.xs-tabs {
-  padding: 1.2em; }
 
 .button {
   width: 100%;
@@ -5438,15 +5452,15 @@ footer img {
 /* MEMBERS */
 .section-members {
   height: auto;
-  margin: 0 auto;
   display: table; }
 
 .member {
-  padding: 1em;
+  width: 25%;
+  min-width: 20em;
+  padding: 0.5em;
   display: inline-block; }
 
 .member-name {
-  width: 75%;
   font-family: "Sue Ellen Francisco", cursive;
   font-size: 2.5em;
   color: #b74826;
@@ -5458,7 +5472,7 @@ footer img {
 
 .member-illu {
   width: 100%;
-  padding: 0;
+  padding: 1em;
   display: block; }
 
 /* MEMBER/--- */

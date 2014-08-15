@@ -20,17 +20,17 @@
 
 .section-members {
 	height: auto;
-	margin: 0 auto;
 	display: table;
 }
 	
 .member {
-	padding: $rhythm * 2;
+	width: 25%;
+	min-width: 20em;
+	padding: $rhythm;
 	display: inline-block;
 }
 
 .member-name {
-	width: 75%;
 	font-family: $title-font;
 	font-size: 2.5em;
 	color: $primary-color;
@@ -44,7 +44,7 @@
 
 .member-illu {
 	width: 100%;
-	padding: 0;
+	padding: 1em;
 	display: block;
 }
 
