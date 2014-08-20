@@ -3,15 +3,13 @@ layout: default
 title: Catz & Kittens
 ---
 
-<div class="cover">
-	<div class="members">
+	<div class="section-members text-center">
 		{% for member in site.data.members %}
-				<div class="catz">
-					<a class="cat_name" href="/members/{{ member.name|downcase }}/">
-						<img class="catz_img" src="/assets/images/illustrations/kitkat1.png">
+				<div class="member">
+					<a class="member-name" href="/members/{{ member.name|downcase }}/">
+						<img class="member-illu" src="/assets/images/illustrations/kitkat1.png">
 						{{ member.name }}
 					</a>
 				</div>
 		{% endfor %}
 	</div>
-</div>

@@ -21,6 +21,6 @@ While in a jQuery mood, we also got to play with the [jQuery Validation Plugin](
 
 We also talked about [Markdown](http://daringfireball.net/projects/markdown/) a bit, [Git](https://github.com/CodeCatz/kibble/tree/master/Git), and [grumpy cat](http://www.complex.com/art-design/2013/08/30-best-grumpy-cat-memes-you-can-respond-with/). Yep, we had a great time, make sure to attend next time!
 
-## Homework
+#### Homework
 
 Speaking of next time: keep on coding throughout the week, and try to find something to present that could be interesting for other Catz and Kittenz. It doesn't have to be anything big, you'll get cookiez (real ones) anyway. And keep making your web app even more awesome.

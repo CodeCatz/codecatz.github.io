@@ -1,0 +1,58 @@
+/*  catz
+	members
+	member/---  */
+
+/* CATZ */
+
+.cover-catzkittenz {
+	background: 
+	linear-gradient(
+	rgba(255, 255, 255, 0.0),
+	rgba(255, 255, 255, 0.5), 
+	$primary-color-gradient
+	),
+
+	url(/assets/images/backgrounds/catz2.jpg) no-repeat center top fixed;
+	background-size: cover;
+}
+
+/* MEMBERS */
+
+.section-members {
+	height: auto;
+	display: table;
+}
+	
+.member {
+	width: 25%;
+	min-width: 20em;
+	padding: $rhythm;
+	display: inline-block;
+}
+
+.member-name {
+	font-family: $title-font;
+	font-size: 2.5em;
+	color: $primary-color;
+	text-align: center;
+	display: block;
+}
+
+.member-name:hover {
+	color: $secondary-color;
+}
+
+.member-illu {
+	width: 100%;
+	padding: 1em;
+	display: block;
+}
+
+
+/* MEMBER/--- */
+
+.member-img {
+	max-width: 100%;
+	margin: $rhythm auto;
+	padding: $rhythm * 2;
+}

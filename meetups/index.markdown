@@ -3,9 +3,8 @@ layout: default
 title: Our meetups recaps!
 ---
 
-
 {% for post in site.posts %}
-<div class="container-fluid">
+<div class="container-fluid section-posts">
 	<div class="meetup">
 		<h2><a href="{{ post.url }}">{{ post.title }}</a>
 			<div class="date">

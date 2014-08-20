@@ -9,7 +9,8 @@ It was a sleepy, rainy day. Most of the mentors abandoned us, so we used this we
 
 Being hosted by [Celtra](http://www.celtra.com) this week, we learned more about their rich media mobile advertising and had interesting discussions about the role of CSS, JavaScript and other stuff in a web app. 
 
-## Homework
+
+#### Homework
 
 Still waiting for all apps to have awesome [jQuery validation](http://jqueryvalidation.org). Check out [the example in kibble](https://github.com/CodeCatz/kibble/tree/master/jQuery/2013-08-28-jquery-form-validation) for inspiration.
 

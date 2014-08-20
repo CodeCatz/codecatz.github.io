@@ -11,7 +11,7 @@ We were solving a lot of random open questions, discussed web domains, databases
 
 So, without further ado, we have an important homework for next week (when we'll be hosted by [Celtra](http://www.celtra.com) again):
 
-## Fun homework!
+#### Fun homework!
 
 It's time for kittens to grow into cats and create our own GitHub repositories. Why? We know the basics by now. If we want to learn more, it's best to start working on meaningful stuff we care about. 
 

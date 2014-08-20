@@ -1,0 +1,180 @@
+/*  html
+	header
+	section
+	footer
+	navigation  */
+
+
+/* HTML */
+
+* {
+	box-sizing: -webkit-border-box;
+	box-sizing: -moz-border-box;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: $primary-color;
+}
+
+a:hover {
+	text-decoration: none;
+	color: $primary-color;
+}
+
+.container-fluid {
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+.nav-container {
+	padding: 0;
+	margin: 0;
+}
+
+
+/* HEADER */
+
+header {
+	width: 100%;
+	z-index: 1;
+	background-color: white;
+}
+
+.header-title{
+	margin: $rhythm * 2 auto;	
+	color: $primary-color;
+	display: table;
+}
+
+h1 {
+	font-family: $title-font;
+	font-weight: 300;
+	font-size: 4em;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+header img {
+	height: 7em;
+	width: auto;
+	padding: $rhythm * 2 $rhythm * 2;
+	margin-top: -3em;
+	display: inline-block;
+}
+
+
+/* SECTION */
+
+section {
+	font-family: $body-font;
+	font-weight: 300;
+	color: $secondary-color;
+	overflow: hidden;
+	padding: 0;
+}
+
+.page-dscr {
+	font-size: $rhythm * 3;
+	color: white;
+	margin: $rhythm * 2;
+	padding: $rhythm * 2;
+	background-color: $primary-color-gradient;
+}
+
+.cover-illu {
+	max-width: 95%;
+	padding: $rhythm * 5;
+	margin-top: 4.5em;
+}
+
+
+/* FOOTER */
+
+footer {
+	height: auto;
+	width: 100%;
+	text-align: center;
+	background-color: $secondary-color;
+	z-index: 1;
+	display: table;
+}
+
+footer img {
+	height: 4em;
+	margin-top: 0;
+	padding: $rhythm * 2;
+}
+
+.footer-text {
+	font-family: $body-font;
+	font-weight: 300;
+	font-size: 1.5em;
+	color: $primary-color; 
+	padding: $rhythm * 3;
+	display: inline-block;
+}
+
+
+/* NAVIGATION */
+
+.nav {
+	font-family: $body-font;
+	font-size: 1.5em;
+	font-weight: 300;
+	line-height: 2;
+}
+
+.nav-small {
+	font-family: $body-font;
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 1;
+}
+
+.tabs {
+	padding: 0;
+}
+	
+.tabs-link {
+	display: block;
+}
+
+.primary-nav {
+	text-align: center;
+	overflow: hidden; 
+}
+
+.primary-nav a {
+	color: white;
+	padding: 0;
+	background-color: $secondary-color;
+	text-decoration: none;
+}
+
+.primary-nav a:hover {
+	background-color: $primary-color;
+}
+
+
+.button {
+	width: 100%;
+	height: auto;
+	padding: $rhythm;
+	text-align: center;
+	background-color: $secondary-color;
+}
+
+.button:hover {
+	background-color: white;
+}
+
+.button a {
+	color: white;
+}
+
+.button a:hover {
+	color: $primary-color;
+}

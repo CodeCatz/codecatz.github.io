@@ -25,7 +25,7 @@ The litterbox wiki now has a [Wish list](https://github.com/CodeCatz/litterbox/w
 
 Keep on coding, Catz!
 
-## Homework
+#### Homework
 
 Until next week:
 
