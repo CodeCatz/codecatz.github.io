@@ -1069,7 +1069,7 @@ mark,
   background-repeat: no-repeat;
   height: 9em;
   background-size: 16%;
-  background-color: rgb(160,211,80);
+  background-color: rgb(174,203,84);
   background-position: bottom left; }
 
 .text-justify {
@@ -5462,7 +5462,9 @@ margin: 2em 2em;
 /* HOME */
 .cover-home {
   background-size: cover;
-  background: url(/assets/images/backgrounds/Code_Catz_Cover.jpg) no-repeat center top fixed; }
+  background: url(/assets/images/backgrounds/Code_Catz_Cover.jpg) no-repeat center top fixed;
+  background-size: cover;
+}
 
 /*  catz
   members
