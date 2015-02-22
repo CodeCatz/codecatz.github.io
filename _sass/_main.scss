@@ -108,17 +108,21 @@ footer img {
 	padding: $rhythm * 2;
 }
 
-.footer-text {
-	font-family: $body-font;
-	font-weight: 300;
-	font-size: 1.5em;
-	color: $primary-color; 
-	padding: $rhythm * 3;
-	display: inline-block;
+footer ul {
+	list-style-type: none;
+}
+
+.follow-us {
+	margin-top: 1em;
+	text-align: left;
 }
 
 
 /* NAVIGATION */
+
+.nav-container {
+	background-color: $secondary-color;
+}
 
 .nav {
 	font-family: $body-font;

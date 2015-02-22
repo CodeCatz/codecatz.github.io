@@ -5323,6 +5323,7 @@ a:hover {
   overflow-x: hidden; }
 
 .nav-container {
+  background-color: rgba(33,33,33,1);
   padding: 0;
   margin: 0; }
 
@@ -5365,10 +5366,10 @@ section {
 
 .page-dscr {
   font-size: 1.5em;
-  color: white;
+  color: black;
   margin: 1em;
-  padding: 1em;
-  background-color: rgba(160, 211, 80, 0.75); }
+  padding: 1.5em;
+  background-color: rgba(160, 211, 80, 0.8); }
 
 .cover-illu {
   max-width: 95%;

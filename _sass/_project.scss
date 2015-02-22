@@ -1,15 +1,15 @@
-/*  meetups
-	metup/---  */
+/*  projects
+	project/---  */
 
-/* MEETUPS */
-/* MEETUP/--- */
+/* PROJECTS */
+/* PROJECT/--- */
 
 .section-posts {
 	margin: 0 auto;
 	padding: 0;
 }
 
-.meetup {
+.project-title {
 	width: 100%;
 	font-family: $title-font;
 	font-weight: 400;
@@ -19,11 +19,14 @@
 	display: table;
 }
 
-h2 a{
-	font-size: 0.75em;
-	padding: $rhythm / 4;
-	border-bottom: solid 0.1em $primary-color;
-	display: inline-block;
+.project-title {
+	font-size: 2em;
+	width: 100%;
+	font-family: $title-font;
+	font-weight: 400;
+	color: $primary-color;
+	line-height: 1;
+	padding: $rhythm / 2;
 }
 
 .date {
