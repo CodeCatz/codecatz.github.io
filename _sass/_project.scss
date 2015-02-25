@@ -10,16 +10,6 @@
 }
 
 .project-title {
-	width: 100%;
-	font-family: $title-font;
-	font-weight: 400;
-	color: $primary-color;
-	line-height: 1;
-	padding: $rhythm / 2;
-	display: table;
-}
-
-.project-title {
 	font-size: 2em;
 	width: 100%;
 	font-family: $title-font;
@@ -27,6 +17,7 @@
 	color: $primary-color;
 	line-height: 1;
 	padding: $rhythm / 2;
+	display: table;
 }
 
 .date {
