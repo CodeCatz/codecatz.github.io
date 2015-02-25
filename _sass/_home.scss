@@ -1,5 +1,4 @@
 /* home */
-
 /* HOME */
 
 .cover-home {
@@ -9,7 +8,8 @@
 	rgba(255, 255, 255, 0.5), 
 	$primary-color-gradient
 	),
-
-	url(/assets/images/backgrounds/Code_Catz_Cover.jpg) no-repeat center top fixed; ;
+	no-repeat center top fixed,
+	url(/assets/images/backgrounds/Code_Catz_Cover.jpg);
 	background-size: cover;
 }
+

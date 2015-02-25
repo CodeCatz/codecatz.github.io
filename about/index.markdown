@@ -3,7 +3,7 @@ layout: default
 title: About CodeCatz
 ---
 
-<div class="container-fluid cover-connect">
+<div class="container-fluid cover-about">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="page-dscr">
@@ -22,7 +22,7 @@ title: About CodeCatz
 			</div>
 		</div>
 		<div class="col-md-8">
-			<img class="illu-connect" src="/assets/images/illustrations/catz_front_fill.png" >
+			<img class="illu-about" src="/assets/images/illustrations/catz_front_fill.png" >
 		</div>
 	</div>
 </div>

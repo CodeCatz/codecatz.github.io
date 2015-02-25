@@ -15,12 +15,12 @@
 
 a {
 	text-decoration: none;
-	color: $primary-color;
+	color: $highlight-color;
 }
 
 a:hover {
 	text-decoration: none;
-	color: $primary-color;
+	color: $secondary-color;
 }
 
 .container-fluid {
@@ -30,8 +30,9 @@ a:hover {
 }
 
 .nav-container {
+	background-color: rgba(33,33,33,1);
 	padding: 0;
-	margin: 0;
+	margin: 0; 
 }
 
 
@@ -47,14 +48,29 @@ header {
 	margin: $rhythm * 2 auto;	
 	color: $primary-color;
 	display: table;
+	font-family: 'Open Sans';
 }
+
+.text-center {
+	text-align: center;
+	background-image: url('/assets/images/headercat.png');
+	background-repeat: no-repeat;
+	height: 9em;
+	background-size: 16%;
+	background-color: rgb(174,203,84);
+	background-position: bottom left; 
+	}
+
 
 h1 {
 	font-family: $title-font;
-	font-weight: 300;
-	font-size: 4em;
+	font-weight: 800;
+	font-size: 5em;
 	text-transform: uppercase;
 	display: inline-block;
+	margin-left: 3.3em;
+	letter-spacing: 0.04em;
+	color: rgb(44,15,1);
 }
 
 header img {
@@ -78,7 +94,7 @@ section {
 
 .page-dscr {
 	font-size: $rhythm * 3;
-	color: white;
+	color: black;
 	margin: $rhythm * 2;
 	padding: $rhythm * 2;
 	background-color: $primary-color-gradient;
@@ -100,6 +116,12 @@ footer {
 	background-color: $secondary-color;
 	z-index: 1;
 	display: table;
+	color: rgb(160,211,80);
+	font-family: "Open sans", sans-serif;
+}
+
+.ft-nav {
+	margin: 0 auto;
 }
 
 footer img {
@@ -115,6 +137,28 @@ footer ul {
 .follow-us {
 	margin-top: 1em;
 	text-align: left;
+}
+
+footer p {float: left;
+margin: 2em 2em;
+}
+
+.footer-text {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	color: rgb(160,211,80);
+	padding: 1.5em;
+	display: inline-block;
+}
+
+footer .ft-nav li {
+	float: left;
+	list-style: none;
+}
+
+footer .ft-nav li a {
+	color: rgb(160,211,80);
 }
 
 
