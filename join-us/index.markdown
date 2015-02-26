@@ -37,7 +37,7 @@ title: About CodeCatz
 					<li>Having your own project that you want to develop or wanting to work on one of the <a href="/projects">projects</a> we’re currently working on. Hint: we really like open source projects.</li>
 				</ul>
 
-				<p><a href="https://codecatz.typeform.com/to/UQmQYu" target="_blank"><button class="btn btn-primary btn-lg">Apply for CodeCatz</button></a></p>
+				<p><a href="https://codecatz.typeform.com/to/UQmQYu" target="_blank"><button class="button">Apply for CodeCatz</button></a></p>
 
 				<p>We usually reply to applications in a few days. If you seem like a good fit, we’ll invite you to join us at our next Wednesday meetup. </p>
 

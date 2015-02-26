@@ -1,20 +1,23 @@
 ---
 layout: default
 ---
-<div class="container-fluid section-posts">
-	<div class="project-title">
-		<a href="/projects">Projects</a> &gt; {{ page.title }}
-	</div>
-	<div class="project-links">
-		<a href="{{ page.repository }}" target="_blank"><i class="fa fa-code-fork"></i> Repository</a>{% if page.website %} <a href="{{ page.website }}" target="_blank"><i class="fa fa-globe"></i> Website</a>{% endif %}
-	</div>
-	<div>
-		<p>Project started on: <span class="date">{{ page.start_date | date_to_string }}</span></p>
-		{% if page.end_date %}<p>Project ended on: <span class="date">{{ page.end_date | date_to_string }}</span>{% endif %}</p>
-	</div>
-	<div class="post">
-		<p>
-			{{ content }}
-		</p>
+<div class="page-dscr">
+	<div class="container-fluid section-posts">
+		<div class="project-title">
+			<h3>{{ page.title }}</h3>
+		</div>
+		<div class="project-links">
+			<a href="{{ page.repository }}" class="project-link" target="_blank"><i class="fa fa-code-fork"></i> Repository</a>{% if page.website %} <a href="{{ page.website }}" class="project-link" target="_blank"><i class="fa fa-globe"></i> Website</a>{% endif %}
+		</div>
+		<div>
+			<p>Project started on: <span class="date">{{ page.start_date | date_to_string }}</span></p>
+			{% if page.end_date %}<p>Project ended on: <span class="date">{{ page.end_date | date_to_string }}</span>{% endif %}</p>
+		</div>
+		<div class="break"></div>
+		<div class="post">
+			<p>
+				{{ content }}
+			</p>
+		</div>
 	</div>
 </div>

@@ -7,25 +7,22 @@ title: CodeCatz projects
 {% assign completed_projects = (site.posts | where: 'status', 'DONE') %}
 <div class="page-dscr">
 	<h2>Ongoing projects</h2>
+	<div class="break"></div>
 	{% for project in current_projects  %}
 	<div class="container-fluid section-posts">
-		<div class="meetup">
-			<h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
-		</div>
-		<div>Project lead: <a href="https://github.com/{{ project.project_lead }}" target="_blank">{{ project.project_lead }}</a></div>
+		<h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+		<div><a href="{{ project.repository }}" class="project-link" target="_blank"><i class="fa fa-code-fork"></i></a>{% if project.website %} <a href="{{ project.website }}" class="project-link" target="_blank"><i class="fa fa-globe"></i></a>{% endif %} Project lead: <a href="https://github.com/{{ project.project_lead }}"  target="_blank">{{ project.project_lead }}</a></div>
 		<div>Project started on: <span class="date">{{ project.start_date | date_to_string }}</span></div>
-		<div class="break"></div> 
 	</div>  
 	{% endfor %}
 	<h2>Completed projects</h2>
+	<div class="break"></div>
 	{% for project in completed_projects %}
 	<div class="container-fluid section-posts">
 		<div class="meetup">
-			<h2><a href="{{ project.url }}">{{ project.title }}</a>
-			</h2>
-			<div>Project completed on: <span class="date">{{ project.end_date | date_to_string }}</span></div>
+			<h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+			<div><a href="{{ project.repository }}" class="project-link" target="_blank"><i class="fa fa-code-fork"></i></a>{% if project.website %} <a href="{{ project.website }}" class="project-link" target="_blank"><i class="fa fa-globe"></i></a>{% endif %} Project completed on: <span class="date">{{ project.end_date | date_to_string }}</span></div>
 		</div>
-		<div class="break"></div> 
 	</div>  
 	{% endfor %}
 </div>

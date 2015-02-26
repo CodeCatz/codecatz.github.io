@@ -13,6 +13,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	margin: -1em 0 0 0;
+}
+
 a {
 	text-decoration: none;
 	color: $highlight-color;
@@ -21,6 +25,10 @@ a {
 a:hover {
 	text-decoration: none;
 	color: $secondary-color;
+}
+
+p a, li a {
+	font-weight: 500;
 }
 
 .container-fluid {
@@ -35,6 +43,34 @@ a:hover {
 	margin: 0; 
 }
 
+h1 {
+	font-family: $title-font;
+	font-weight: 800;
+	font-size: 5em;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-left: 3.3em;
+	letter-spacing: 0.04em;
+	color: rgb(44,15,1);
+}
+
+h2 {
+	font-family: $title-font;
+	font-weight: 600;
+	font-size: 2em;
+	text-transform: uppercase;
+	display: inline-block;
+	letter-spacing: 0.04em;
+	color: $secondary-color;
+}
+
+h3 {
+	font-family: $title-font;
+	font-weight: 600;
+	font-size: 1.5em;
+	display: inline-block;
+	color: $secondary-color;
+}
 
 /* HEADER */
 
@@ -59,18 +95,6 @@ header {
 	background-size: 16%;
 	background-color: rgb(174,203,84);
 	background-position: bottom left; 
-	}
-
-
-h1 {
-	font-family: $title-font;
-	font-weight: 800;
-	font-size: 5em;
-	text-transform: uppercase;
-	display: inline-block;
-	margin-left: 3.3em;
-	letter-spacing: 0.04em;
-	color: rgb(44,15,1);
 }
 
 header img {
@@ -182,14 +206,6 @@ footer .ft-nav li a {
 	line-height: 1;
 }
 
-.tabs {
-	padding: 0;
-}
-	
-.tabs-link {
-	display: block;
-}
-
 .primary-nav {
 	text-align: center;
 	overflow: hidden; 
@@ -203,20 +219,50 @@ footer .ft-nav li a {
 }
 
 .primary-nav a:hover {
-	background-color: $primary-color;
+	background-color: $highlight-color;
 }
 
+.tabs {
+	padding: 0;
+}
+
+.tabs-link {
+	display: block;
+	font-weight: 600;
+}
+
+.tabs > .active {
+	background-color: $primary-color;
+	color: $secondary-color;
+	border-color: $secondary-color;
+	border-width: 1px 0 1px 0;
+	border-style: dashed;
+}
 
 .button {
-	width: 100%;
+	width: 50%;
 	height: auto;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
 	padding: $rhythm;
 	text-align: center;
-	background-color: $secondary-color;
+	background-color: $highlight-color;
+	color: white;
+	font-family: $title-font;
+	font-weight: 600;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	display: inline-block;
+	letter-spacing: 0.04em;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border: 0px;
 }
 
 .button:hover {
 	background-color: white;
+	color: $primary-color;
 }
 
 .button a {
@@ -225,4 +271,25 @@ footer .ft-nav li a {
 
 .button a:hover {
 	color: $primary-color;
+}
+
+
+/* RESPONSIVE fixes */
+@media screen and (max-width: 980px) {
+	.header-title h1 {
+		margin-left: 0;
+	}
+	.text-center {
+		background-size: 20%;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.header-title h1 {
+		margin-top: 0.5em;
+		font-size: 3.5em;
+	}
+	.text-center {
+		background-size: 28%;
+	}
 }
