@@ -16,6 +16,8 @@ navigation:
       url: /projects
     - title: Join us
       url: /join-us
+    - title: Resources
+      url: /resources
 
 sass:
     sass_dir: _sass
