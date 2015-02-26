@@ -5,6 +5,7 @@ start_date:   2014-12-03 17:30:00
 project_lead: CodeCatz
 status: CURRENT
 repository: https://github.com/CodeCatz/TrackCat
+technologies: Django
 ---
 
 A tool for tracking the progress of the kittens (and cat{s,z}) in our CodeCatz meetup group.
