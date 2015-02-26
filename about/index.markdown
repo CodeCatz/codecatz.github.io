@@ -16,7 +16,7 @@ title: About CodeCatz
 					<li>Alja Isaković (<a href="https://twitter.com/ialja" target="_blank">@iAlja</a>)</li>
 					<li>Erika Pogorelc (<a href="https://twitter.com/ercchy" target="_blank">@ercchy</a>)</li>
 					<li>Goran Blažič (<a href="https://twitter.com/goranche" target="_blank">@goranche</a>)</li>
-					<li>Jure Čuhalev (<a href="https://twitter.com/gandalfar" target="_blank">@gandlfar</a>)</li>
+					<li>Jure Čuhalev (<a href="https://twitter.com/gandalfar" target="_blank">@gandalfar</a>)</li>
 					<li>Mateja Verlič (<a href="https://twitter.com/sparkica" target="_blank">@sparkica</a>)</li>
 				</ul>
 				<h2>Press</h2>
