@@ -18,7 +18,14 @@ title: About CodeCatz
 					<li>Goran Blažič (<a href="https://twitter.com/goranche" target="_blank">@goranche</a>)</li>
 					<li>Jure Čuhalev (<a href="https://twitter.com/gandalfar" target="_blank">@gandlfar</a>)</li>
 					<li>Mateja Verlič (<a href="https://twitter.com/sparkica" target="_blank">@sparkica</a>)</li>
-				</li>
+				</ul>
+				<h2>Press</h2>
+				<ul>
+					{% assign sorted_mentions = site.data.press | sort: 'date' %}
+					{% for mention in sorted_mentions reversed %}
+						<li><a href="{{ mention.url }}" target="_blank">{{ mention.title }}</a> ({{ mention.date | date: "%B %Y" }})</li>
+					{% endfor %}
+				</ul>
 			</div>
 		</div>
 		<div class="col-md-8">
