@@ -5,11 +5,14 @@
 	background: 
 	linear-gradient(
 	rgba(255, 255, 255, 0.0),
-	rgba(255, 255, 255, 0.2), 
+	rgba(255, 255, 255, 0.2),
 	$primary-color-gradient
 	),
 	no-repeat center top fixed,
 	url(/assets/images/backgrounds/Code_Catz_Cover.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 }
 

@@ -49,7 +49,6 @@ h1 {
 	font-size: 5em;
 	text-transform: uppercase;
 	display: inline-block;
-	margin-left: 3.3em;
 	letter-spacing: 0.04em;
 	color: rgb(44,15,1);
 }
@@ -116,12 +115,19 @@ section {
 	padding: 0;
 }
 
-.page-dscr {
+.page-about {
 	font-size: $rhythm * 3;
 	color: black;
 	margin: $rhythm * 2;
 	padding: $rhythm * 2;
 	background-color: $primary-color-gradient;
+}
+
+.page-dscr {
+	font-size: $rhythm * 3;
+	color: black;
+	margin: $rhythm * 2;
+	padding: $rhythm * 2;
 }
 
 .cover-illu {
@@ -130,65 +136,13 @@ section {
 	margin-top: 4.5em;
 }
 
-
-/* FOOTER */
-
-footer {
-	height: auto;
-	width: 100%;
-	text-align: center;
-	background-color: $secondary-color;
-	z-index: 1;
-	display: table;
-	color: rgb(160,211,80);
-	font-family: "Open sans", sans-serif;
-}
-
-.ft-nav {
-	margin: 0 auto;
-}
-
-footer img {
-	height: 4em;
-	margin-top: 0;
-	padding: $rhythm * 2;
-}
-
-footer ul {
-	list-style-type: none;
-}
-
-.follow-us {
-	margin-top: 1em;
-	text-align: left;
-}
-
-footer p {float: left;
-margin: 2em 2em;
-}
-
-.footer-text {
-	font-family: "Open Sans", sans-serif;
-	font-weight: 300;
-	font-size: 1.5em;
-	color: rgb(160,211,80);
-	padding: 1.5em;
-	display: inline-block;
-}
-
-footer .ft-nav li {
-	float: left;
-	list-style: none;
-}
-
-footer .ft-nav li a {
-	color: rgb(160,211,80);
-}
-
-
 /* NAVIGATION */
 
 .nav-container {
+	background-color: $secondary-color;
+}
+
+.navbar-collapse {
 	background-color: $secondary-color;
 }
 
@@ -239,6 +193,30 @@ footer .ft-nav li a {
 	border-style: solid;
 }
 
+.list-link {
+	display: block;
+	font-weight: 600;
+}
+
+.list-link a:hover {
+	background-color: blue;
+}
+
+.navbar-default
+.navbar-nav > li >a {
+	color: white;
+}
+
+.navbar-default
+.navbar-nav > li > a:hover {
+	color: $highlight-color;
+}
+
+.navbar-default
+.navbar-nav > li > .active {
+	color: $primary-color;
+}
+
 .button {
 	width: 50%;
 	height: auto;
@@ -271,6 +249,54 @@ footer .ft-nav li a {
 
 .button a:hover {
 	color: $primary-color;
+}
+
+/* FOOTER */
+
+footer {
+	height: auto;
+	width: 100%;
+	text-align: center;
+	background-color: $secondary-color;
+	z-index: 1;
+	display: table;
+	color: $primary-color;
+	font-family: "Open sans", sans-serif;
+}
+
+footer img {
+	height: 8em;
+	margin-top: 0;
+	padding: $rhythm * 2;
+}
+
+.follow-us {
+	margin-top: 1em;
+	text-align: left;
+}
+
+footer ul {
+	list-style-type: none;
+	text-align: left;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 0;
+    padding: 0;
+	font-weight: 300;
+	font-size: 1.5em;
+}
+
+footer li {
+	display: inline-block;
+	margin-right: 0.5em;
+}
+
+footer a {
+	color: $primary-color;
+}
+
+footer a:hover {
+	color: $highlight-color;
 }
 
 
