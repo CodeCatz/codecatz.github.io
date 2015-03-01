@@ -2,5 +2,15 @@ category: Git - coding together
 description: "Start using Git, a version control system that helps you program together with others."
 order: 3
 links:
-  - title: ABC
-    url:
+  - title: Try Git in 15 minutes
+    date: 2015-01-31
+    url: https://try.github.io
+  - title: GitHub Guides
+    date: 2015-01-30
+    url: https://guides.github.com
+  - title: GitHub Pages
+    date: 2015-01-29
+    url: https://pages.github.com/
+  - title: Atlassian Git tutorials
+    date: 2015-01-28
+    url: https://www.atlassian.com/git/tutorials

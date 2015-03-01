@@ -1,8 +1,25 @@
 category: Talks by Catz
-description: Videos of talks given by members of CodeCatz at verious events
+description: Videos of talks given by members of CodeCatz at verious events.
 order: 4
 links:
-  - title: Heidi at WebCamp
-    url:
-  - title: Erika at TEDx
-    url:
+  - title: "Heidi Pungartnik: Hacking Conversions (WebCamp Ljubljana)"
+    date: 2014-04-08
+    url: http://video.webcamp.si/wc2014_pungartnik_hacking_conversions/
+  - title: "Mateja Verlič, Erika Pogorelc: Busting Wordpress myths (WebCamp Ljubljana)"
+    date: 2014-04-08
+    url: http://video.webcamp.si/wc2014_lt_verlic_pogorelc_busting_wordpress_myths/
+  - title: "Alja Isaković: From hello codekitty to codeEU (WebCamp Ljubljana)"
+    date: 2014-04-08
+    url: http://video.webcamp.si/wc2014_lt_isakovic_from_hello_codekitty_to_codeeu/
+  - title: "Mateja Verlič, Alja Isakovič, Erika Pogorelc: Rails Girls Ljubljana talks"
+    date: 2014-05-10
+    url: http://railsgirls.si/videoteka/ljubljana2014/
+  - title: "Erika Pogorelc: Od frizerke do programerke (TEDxUniversityOfLjubljana)"
+    date: 2014-10-15
+    url: https://www.facebook.com/video.php?v=771719916229918
+  - title: "Mateja Verlič: Nevidnost (TEDxLjubljana)"
+    date: 2014-11-16
+    url: https://www.youtube.com/watch?v=i-ZEN4nFhuo
+  - title: "Alja Isaković: Ne le všečaj, ustvarjaj! (TEDxCelje)"
+    date: 2013-06-01
+    url: https://www.youtube.com/watch?v=0GX1DdLyJGs

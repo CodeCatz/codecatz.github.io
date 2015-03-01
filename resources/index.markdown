@@ -14,9 +14,12 @@ title: Learning resources
 				<h2>{{ category.category }}</h2>
 				<div class="break"></div>
 				<p>{{ category.description }}</p>
-				<ul>
-					{% for link in category.links %}
-						<li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
+				<ul>{% assign category_links = category.links | sort: "date" %}
+					{% for link in category_links reversed %}
+						<li>
+							<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>
+							{% if link.about %} - {{ link.about }}{% endif %}
+						</li>
 					{% endfor %}
 				</ul>
 				{% endfor %}
