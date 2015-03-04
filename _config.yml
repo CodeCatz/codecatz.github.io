@@ -1,15 +1,23 @@
 # Site settings
 title: CodeCatz
 email:
-description: "Girls Learning to Code"
+description: "coding study group"
 baseurl: ""
 url: "http://codecatz.github.io/"
 
-
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /projects/:title.html
 
+navigation:
+    - title: About
+      url: /about
+    - title: Projects
+      url: /projects
+    - title: Join us
+      url: /join-us
+    - title: Resources
+      url: /resources
 
 sass:
     sass_dir: _sass

@@ -1,0 +1,24 @@
+category: Making websites and web apps
+description: Basics of HTML/CSS and various frameworks for web development.
+order: 1
+links:
+  - title: "Codecademy HTML & CSS track"
+    date: 2015-01-31
+    url: http://www.codecademy.com/tracks/web
+    about: "A good place to learn about the basics of building and designing websites through interactive tutorials."
+  - title: "Learn Python the Hard Way"
+    date: 2015-01-30
+    url: http://learnpythonthehardway.org/book/
+    about: "This book will guide you through the basics of programming in Python."
+  - title: "Django Girls Tutorial"
+    date: 2015-01-29
+    url: http://tutorial.djangogirls.org/en/index.html
+    about: "A great beginner-friendly tutorial for building dynamic websites in Django, a Python-based framework."
+  - title: "Using Jekyll"
+    date: 2015-01-28
+    url: http://code.tutsplus.com/tutorials/using-jekyll--cms-20956
+    about: "Jekyll is a simple, yet powerful static website generator written in Ruby."
+  - title: "Code School"
+    date: 2015-01-27
+    url: https://www.codeschool.com
+    about: "Video lessons and coding challenges for different web-related technologies."
