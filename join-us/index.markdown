@@ -26,7 +26,7 @@ As a member of CodeCatz, you’ll learn how to work on real-world open source pr
 - a decent laptop with Linux or OS X (hint: if you need Windows for other work, consider installing [VirtualBox &amp; Ubuntu](http://www.wikihow.com/Install-Ubuntu-on-VirtualBox))
 - time, passion, stubbornness, patience, attention to detail
 - willingness to learn, share code &amp; knowledge, and working on open source projects
--basic knowledge of English
+- basic knowledge of English
 
 P.S.: owning a cat is not necessary, but an appreciation of <a href="http://icanhas.cheezburger.com/lolcats" target="_blank">LOLcats</a> is (or at least <a href="https://twitter.com/dogsolutions" target="_blank">@DogSolutions</a>)
 
@@ -34,12 +34,12 @@ P.S.: owning a cat is not necessary, but an appreciation of <a href="http://ican
 
 Do you still want to become a CodeCat after reading all of this? Awesome! You can apply by:
 
-- Submitting a sample project. It doesn’t have to be super complex, super fancy or super pretty. We just want to see that you’re able to learn on your own and apply what you learn to project that means something to you. A HTML/CSS page about you can be a great project, as long as you hacked it together and managed to publish it online. Hint: GitHub is a great place to host your projects.<a href="#beginner">*</a>
+- Submitting a sample project. It doesn’t have to be super complex, super fancy or super pretty. We just want to see that you’re able to learn on your own and apply what you learn to a project that means something to you. A HTML/CSS page about you can be a great project, as long as you hacked it together and managed to publish it online. Hint: GitHub is a great place to host your projects.<a href="#beginner">*</a>
 - Having your own project that you want to develop or wanting to work on one of the <a href="/projects">projects</a> we’re currently working on. Hint: we really like open source projects.
 
 <p><a href="https://codecatz.typeform.com/to/UQmQYu" target="_blank"><button class="button">Apply for CodeCatz</button></a></p>
 
-We usually reply to applications in a few days. If you seem like a good fit, we’ll invite you to join us at our next Wednesday meetup. 
+We usually reply to applications in a few days. If you seem like a good fit, we’ll invite you to meet us at one of our upcoming Wednesday meetups. We're currently planning on inviting new members in April.
 
 
 <p id="beginner"><em>* Are you a complete beginner? Check out our recommended list of <a href="/resources">resources</a> that can help you hack your own project.</a></em></p>
