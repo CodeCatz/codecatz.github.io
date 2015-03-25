@@ -1,8 +1,8 @@
 ---
 layout: project
 title:  "Events website for Europe Code Week"
-start_date:   2014-02-19 17:30:00
-end_date:   2014-10-17 23:59:00
+start_date: 2014-02-19 17:30:00
+end_date: 2014-10-17 23:59:00
 project_lead: ialja
 status: DONE
 repository: https://github.com/codeeu/coding-events

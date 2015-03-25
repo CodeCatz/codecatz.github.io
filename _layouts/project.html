@@ -10,7 +10,7 @@ layout: page
 </div>
 <div>
 	<p>Technologies used: {{ page.technologies }} | Project lead: <a href="https://github.com/{{ page.project_lead }}"  target="_blank">{{ page.project_lead }}</a></p>
-	<p>Project started on: <span class="date">{{ page.start_date | date_to_string }}</span>{% if page.end_date %} | Project ended on: <span class="date">{{ page.end_date | date_to_string }}</span>{% endif %}</p>
+	<p>Project started on: <span class="date">{{ page.start_date | date: "%-d %B %Y" }}</span>{% if page.end_date %} | Project ended on: <span class="date">{{ page.end_date | date: "%-d %B %Y" }}</span>{% endif %}</p>
 </div>
 <div class="break"></div>
 <div class="post">

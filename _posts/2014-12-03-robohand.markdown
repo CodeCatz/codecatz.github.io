@@ -1,0 +1,12 @@
+---
+layout: project
+title:  "RoboRoka"
+start_date: 2014-12-04 18:00:00
+project_lead: goranche
+status: CURRENT
+repository: https://github.com/RoboRoka
+website: http://roboroka.si
+technologies: Arduino
+---
+
+A robotic hand meant for kids, controlled by Arduino, (hopefully) bluetooth enabled. It’s main use is providing a challenging learning environment, both for children as well as the young at heart, a.k.a. geeks :)
