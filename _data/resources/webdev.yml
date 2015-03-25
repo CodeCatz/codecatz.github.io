@@ -15,10 +15,14 @@ links:
     url: http://tutorial.djangogirls.org/en/index.html
     about: "A great beginner-friendly tutorial for building dynamic websites in Django, a Python-based framework."
   - title: "Using Jekyll"
-    date: 2015-01-28
+    date: 2015-01-26
     url: http://code.tutsplus.com/tutorials/using-jekyll--cms-20956
     about: "Jekyll is a simple, yet powerful static website generator written in Ruby."
   - title: "Code School"
     date: 2015-01-27
     url: https://www.codeschool.com
     about: "Video lessons and coding challenges for different web-related technologies."
+  - title: "JavaScript For Cats"
+    date: 2015-01-28
+    url: http://jsforcats.com
+    about: "A fun introduction into JavaScript for new programmers. So easy that humans can do it too."
