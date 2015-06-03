@@ -39,7 +39,7 @@ Do you still want to become a CodeCat after reading all of this? Awesome! You ca
 
 <p><a href="https://codecatz.typeform.com/to/UQmQYu" target="_blank"><button class="button">Apply for CodeCatz</button></a></p>
 
-We usually reply to applications in a few days. If you seem like a good fit, we’ll invite you to meet us at one of our upcoming Wednesday meetups. We're currently planning on inviting new members in April.
+We usually reply to applications in a few days. If you seem like a good fit, we’ll invite you to meet us at one of our upcoming Wednesday meetups.
 
 
 <p id="beginner"><em>* Are you a complete beginner? Check out our recommended list of <a href="/resources">resources</a> that can help you hack your own project.</a></em></p>
