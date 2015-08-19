@@ -2,8 +2,9 @@
 layout: project
 title:  "TrackCat"
 start_date:   2014-12-03 17:30:00
+end_date: 2015-03-08 17:30:00
 project_lead: CodeCatz
-status: CURRENT
+status: DONE
 repository: https://github.com/CodeCatz/TrackCat
 website: https://trackcat.herokuapp.com/
 technologies: Django
