@@ -55,7 +55,7 @@ We usually reply to applications in a few days. If you seem like a good fit, weâ
 
 ### Questions? Want to take over the world together?
 
-If you have a question about CodeCatz or a cool idea for a project we could join, send us an <a href="mailto:codecatz@me.com?Subject=Question%20for%20CodeCatz">email</a>, <a href="https://twitter.com/CodeCatz">tweet</a> or <a href="https://facebook.com/CodeCatz">FB message</a>.
+If you have a question about CodeCatz or a cool idea for a project we could join, send us an <a href="mailto:codecatz@icloud.com?Subject=Question%20for%20CodeCatz">email</a>, <a href="https://twitter.com/CodeCatz">tweet</a> or <a href="https://facebook.com/CodeCatz">FB message</a>.
 
 <div class="col-md-8">
 	<img class="illu-about" src="/assets/images/illustrations/catz_back_fill.png" >
