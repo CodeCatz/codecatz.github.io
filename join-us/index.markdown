@@ -1,9 +1,18 @@
 ---
 layout: page
-title: About CodeCatz
+title: Join CodeCatz
 ---
 
 Are you female and are you learning programming because you have an awesome idea you want to build or because you’re wondering if you could turn talking to computers into a job?
+
+Awesome! Now here's the thing: we're not currently looking for new members, but we do have a list of <a href="/resources">resources</a> that can help you on your journey. If you want to build and publish a simple website, you can also test our <a href="http://codecatz.org/codecatz-tutorial/">Jekyll tutorial</a> (note: it's not quite finished yet, but we do welcome your feedback).
+
+You can also follow us on <a href="https://facebook.com/CodeCatz" target="_blank">Facebook</a> and <a href="https://twitter.com/CodeCatz" target="_blank">Twitter</a> to find out about different workshops and opportunities for cool catz like you.
+
+<!--- 
+
+// NOT CURRENTLY RECRUITING, BUT KEEPING THIS AS BACKUP
+// IF YOU READ THIS ANYWAY, SEND US A MEOW ANYWAY :)
 
 Read on, dear kitten, we might just have what you’re looking for!
 
@@ -41,12 +50,12 @@ Do you still want to become a CodeCat after reading all of this? Awesome! You ca
 
 We usually reply to applications in a few days. If you seem like a good fit, we’ll invite you to meet us at one of our upcoming Wednesday meetups.
 
+<p id="beginner"><em>* Are you a complete beginner? Check out our recommended list of <a href="/resources">resources</a> that can help you hack your own project.</a></em></p> 
+-->
 
-<p id="beginner"><em>* Are you a complete beginner? Check out our recommended list of <a href="/resources">resources</a> that can help you hack your own project.</a></em></p>
+### Questions? Want to take over the world together?
 
-## Questions?
-
-If you have questions about joining CodeCatz, send us an email, tweet or FB message, or come to visit us in person during one of our Wednesday meetups.
+If you have a question about CodeCatz or a cool idea for a project we could join, send us an <a href="mailto:codecatz@me.com?Subject=Question%20for%20CodeCatz">email</a>, <a href="https://twitter.com/CodeCatz">tweet</a> or <a href="https://facebook.com/CodeCatz">FB message</a>.
 
 <div class="col-md-8">
 	<img class="illu-about" src="/assets/images/illustrations/catz_back_fill.png" >
