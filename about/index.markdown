@@ -11,13 +11,34 @@ The idea for CodeCatz was born at the [Girls After Rails Meetup](https://www.fac
 
 ## Who's behind CodeCatz?
 
-CodeCatz is a group volunteering effort. The project is led by the following Catz (in alphabetical order):
+CodeCatz is a group volunteering effort. Currently active Catz:
 
 - Alja Isaković (<a href="https://twitter.com/ialja" target="_blank">@iAlja</a>)
 - Erika Pogorelc (<a href="https://twitter.com/ercchy" target="_blank">@ercchy</a>)
-- Goran Blažič (<a href="https://twitter.com/goranche" target="_blank">@goranche</a>)
-- Jure Čuhalev (<a href="https://twitter.com/gandalfar" target="_blank">@gandalfar</a>)
 - Mateja Verlič (<a href="https://twitter.com/sparkica" target="_blank">@sparkica</a>)
+- Heidi Pungartnik (<a href="https://twitter.com/design4founders" target="_blank">@design4founders</a>)
+
+## Projects
+
+{% assign current_projects = (site.posts | where: 'status', 'CURRENT' | sort: 'start_date') %}
+{% assign completed_projects = (site.posts | where: 'status', 'DONE' | sort: 'end_date') %}
+
+Current projects:
+
+<ul>
+{% for project in current_projects reversed %}
+	<li>{% if project.website %} <a href="{{ project.website }}" target="_blank">{{ project.title }}</i></a>{% else %}{{ project.title }}{% endif %} | {{ project.technologies }} <a href="{{ project.repository }}" target="_blank"><i class="fa fa-code-fork"></i></a>
+	</li>
+{% endfor %}
+</ul> 
+
+Completed projects:
+<ul>
+{% for project in completed_projects reversed %}
+	<li>{% if project.website %} <a href="{{ project.website }}" target="_blank">{{ project.title }}</i></a>{% else %}{{ project.title }}{% endif %} | {{ project.technologies }}, {{ project.end_date | date: "%B %Y" }} <a href="{{ project.repository }}" target="_blank"><i class="fa fa-code-fork"></i></a>
+	</li>
+{% endfor %}
+</ul>  
 
 ## Press
 

@@ -2,8 +2,9 @@
 layout: project
 title:  "RoboRoka"
 start_date: 2014-12-04 18:00:00
+end_date: 2015-12-11 17:30:00
 project_lead: goranche
-status: CURRENT
+status: DONE
 repository: https://github.com/RoboRoka
 website: http://roboroka.si
 technologies: Arduino
