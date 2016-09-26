@@ -12,12 +12,10 @@ permalink: /projects/:title.html
 navigation:
     - title: About
       url: /about
-    - title: Projects
-      url: /projects
-    - title: Join us
-      url: /join-us
     - title: Resources
       url: /resources
+    - title: Tutorial
+      url: /codecatz-tutorial
 
 sass:
     sass_dir: _sass
