@@ -27,7 +27,7 @@ Current projects:
 
 <ul>
 {% for project in current_projects reversed %}
-	<li>{% if project.website %} <a href="{{ project.website }}" target="_blank">{{ project.title }}</i></a>{% else %}{{ project.title }}{% endif %} | {{ project.technologies }} <a href="{{ project.repository }}" target="_blank"><i class="fa fa-code-fork"></i></a>
+	<li>{% if project.website %} <a href="{{ project.website }}" target="_blank">{{ project.title }}</a>{% else %}{{ project.title }}{% endif %} | {{ project.technologies }} <a href="{{ project.repository }}" target="_blank"><i class="fa fa-code-fork"></i></a>
 	</li>
 {% endfor %}
 </ul> 
@@ -35,7 +35,7 @@ Current projects:
 Completed projects:
 <ul>
 {% for project in completed_projects reversed %}
-	<li>{% if project.website %} <a href="{{ project.website }}" target="_blank">{{ project.title }}</i></a>{% else %}{{ project.title }}{% endif %} | {{ project.technologies }}, {{ project.end_date | date: "%B %Y" }} <a href="{{ project.repository }}" target="_blank"><i class="fa fa-code-fork"></i></a>
+	<li>{% if project.website %} <a href="{{ project.website }}" target="_blank">{{ project.title }}</a>{% else %}{{ project.title }}{% endif %} | {{ project.technologies }}, {{ project.end_date | date: "%B %Y" }} <a href="{{ project.repository }}" target="_blank"><i class="fa fa-code-fork"></i></a>
 	</li>
 {% endfor %}
 </ul>  
