@@ -2,7 +2,7 @@
 title: CodeCatz
 email:
 description: "coding study group"
-baseurl: "codecatz.github.io"
+baseurl: "/codecatz.github.io"
 url: "http://codecatz.github.io/"
 ga_tracking_code: UA-
 # Build settings
