@@ -4,10 +4,14 @@ email:
 description: "coding study group"
 baseurl: ""
 url: "http://codecatz.github.io/"
-
+ga_tracking_code: UA-
 # Build settings
+
+# Some files we need to exclude, so Github can build the site
+exclude: [Gemfile, Gemfile.lock, README.md]
+
 markdown: kramdown
-permalink: /projects/:title.html
+#permalink: /:projects/:title
 
 navigation:
     - title: About
