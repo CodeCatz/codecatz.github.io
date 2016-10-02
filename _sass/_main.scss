@@ -15,11 +15,13 @@
 
 body {
 	margin: -1em 0 0 0;
+    color: $font-color;
+    font-family: "Open Sans", sans-serif;
 }
 
 a {
 	text-decoration: none;
-	color: $highlight-color;
+	color: $link-color;
 }
 
 a:hover {
@@ -40,7 +42,7 @@ p a, li a {
 .nav-container {
 	background-color: rgba(33,33,33,1);
 	padding: 0;
-	margin: 0; 
+	margin: 0;
 }
 
 h1 {
@@ -80,7 +82,7 @@ header {
 }
 
 .header-title{
-	margin: $rhythm * 2 auto;	
+	margin: $rhythm * 2 auto;
 	color: $primary-color;
 	display: table;
 	font-family: 'Open Sans';
@@ -93,7 +95,7 @@ header {
 	height: 9em;
 	background-size: 16%;
 	background-color: rgb(174,203,84);
-	background-position: bottom left; 
+	background-position: bottom left;
 }
 
 header img {
@@ -162,7 +164,7 @@ section {
 
 .primary-nav {
 	text-align: center;
-	overflow: hidden; 
+	overflow: hidden;
 }
 
 .primary-nav a {
@@ -253,50 +255,12 @@ section {
 
 /* FOOTER */
 
-footer {
-	height: auto;
-	width: 100%;
-	text-align: center;
-	background-color: $secondary-color;
-	z-index: 1;
-	display: table;
-	color: $primary-color;
-	font-family: "Open sans", sans-serif;
-}
+
 
 footer img {
 	height: 8em;
 	margin-top: 0;
 	padding: $rhythm * 2;
-}
-
-.follow-us {
-	margin-top: 1em;
-	text-align: left;
-}
-
-footer ul {
-	list-style-type: none;
-	text-align: left;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-	margin-left: 0;
-    padding: 0;
-	font-weight: 300;
-	font-size: 1.5em;
-}
-
-footer li {
-	display: inline-block;
-	margin-right: 0.5em;
-}
-
-footer a {
-	color: $primary-color;
-}
-
-footer a:hover {
-	color: $highlight-color;
 }
 
 

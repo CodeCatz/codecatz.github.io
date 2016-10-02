@@ -1,10 +1,12 @@
 # Site settings
-title: CodeCatz
+title: "CodeCatz coding study group"
 email:
 description: "coding study group"
-baseurl: "/codecatz.github.io"
+baseurl:
 url: "http://codecatz.github.io/"
 ga_tracking_code: UA-
+
+
 # Build settings
 
 # Some files we need to exclude, so Github can build the site
@@ -24,5 +26,11 @@ navigation:
 sass:
     sass_dir: _sass
     style: compressed
+
+
+# Content
+description: "CodeCatz is a coding study group where women are never in the minority. We meet every Wednesday and hack open source projects together because we think that's fun and because we like
+learning new programming skills."
+
 
 

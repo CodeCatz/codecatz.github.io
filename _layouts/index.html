@@ -1,0 +1,163 @@
+---
+layout: default
+---
+<div class="jumbotron">
+	<div class="container">
+		<h1 id="jumbotron-heading col col-sm-5">Ženska spada za računalnik</h1>
+		<h5 id="jumbotron-subheading">V enem dnevu te bomo naučili osnov
+			spletnega programiranja, tudi če
+			nimaš nobenih izkušenj.
+		</h5>
+	</div>
+</div>
+
+<div class="container">
+
+	<div class="logo col-centered col-xs-4 col-sm-2">
+		<img src="{{ site.baseurl }}/assets/images/logo.svg"
+		     alt="CodeCatz Logo">
+	</div>
+
+	<div class="highlight col-centered col-sm-8">
+		<p>
+			Verjamemo, da bo svet IT-ja še boljši, če vanj pripeljemo več žensk.
+			CodeCatz delavnica je priložnost, da se naučiš programiranja in
+			postanešena izmed nas — programerk.
+		</p>
+	</div>
+
+	<section class="tiles row">
+		<div class="tile col xs-12 col-md-4">
+			<img class="icon" src="{{ site.baseurl }}/assets/images/cv_icon.svg"
+			     alt="Dopolni svoj CV">
+			<div class="title">Dopolni svoj CV</div>
+			<p>
+				Področje informatike bo do leta 2020 zrastlo za 22%. Znanje
+				programiranja lahko pomeni prednost, ki te postavi pred druge
+				kandidatke pri iskanju službe.
+			</p>
+
+		</div>
+		<div class="tile col xs-12 col-md-4">
+			<img class="icon"
+			     src="{{ site.baseurl }}/assets/images/learn_icon.svg"
+			     alt="Dopolni svoj CV">
+			<div class="title">Razvij spletno stran</div>
+			<p>
+				Delavnica je zasnovana zelo praktično. V soboto zvečer bošdomov
+				odšla ne samo z novim znanjem, temveč tudi z lastno spletno
+				stranjo.
+			</p>
+
+		</div>
+		<div class="tile col xs-12 col-md-4">
+			<img class="icon"
+			     src="{{ site.baseurl }}/assets/images/signpost_icon.svg"
+			     alt="Dopolni svoj CV">
+			<div class="title">Varno okolje</div>
+			<p>
+				Naše potrpežljive mentorice in mentorji bodo tebe in druge
+				začetnice v programiranju vodili skozi celoten proces, navodila
+				pa bodo ostala na voljo tudi po koncu
+				delavnice.
+			</p>
+
+		</div>
+	</section>
+
+	<section class="mentors">
+		<h2>Mentorice in mentorji</h2>
+
+		<div class="subtitle col-centered col-md-8 ">
+			Izbrali smo stare mačke v programiranju. Se jim želiš pridružiti?
+			Prijave za nove mentorice in mentorje <br>
+			zbiramo <a href="#" target="_blank">tukaj</a>
+		</div>
+
+		<div class="mentor-list col-centered col-xs-12 col-md-8">
+			{% for mentor in site.data.mentors %}
+			<div class="mentor-data col-xs-2 col-sm-3">
+				<img src="{{site.baseurl}}/assets/images/mentors/{{ mentor.image_name }}"
+				     alt="Mentor {{ mentor.name }}">
+				<div class="presentation clearfix">
+					<div class="icon col-xs-1">
+						{% if mentor.social.type == 'twitter' %}
+						<img src="{{site.baseurl}}/assets/images/twitter_icon.svg"
+						     alt="Twitter Icon">
+						{% elsif mentor.social.type == 'linkedin' %}
+						<img src="{{site.baseurl}}/assets/images/linkedin_icon.svg"
+						     alt="Linkedin Icon">
+						{% endif %}
+					</div>
+					<div class="col-xs-9">
+						{{ mentor.name }}
+					</div>
+				</div>
+			</div>
+
+			{% endfor %}
+		</div>
+	</section>
+</div>
+<section class="signup">
+	<div class="container">
+		<div class="col-centered col-md-10">
+
+			<h2 class="signup-title italic">Delavnica bo potekala 22. oktobra
+				2016 na
+				Fakulteti
+				za
+				Računalništvo in
+				Informatiko v Ljubljani.</h2>
+			<div class="questions col-xs-12 col-md-6">
+				<ul class="question-list">
+					<li>Ali si želiš poiskusiti programiranje?</li>
+					<li>Nimaš izkušenj na tem področju?</li>
+					<li>Bi znala slediti navodilom v angleščini?</li>
+					<li>Imaš lastni prenosnik, ki ga lahko uporabiš na
+						delavnici?
+					</li>
+				</ul>
+			</div>
+			<div class="signup-cta col-xs-12 col-md-6">
+				Če si na vsa vprašanja odgovorila z "da", <br> se čim prej
+				prijavi!
+				<div class="cta-button-wrapper">
+					<a href="#" class="btn btn-primary">Prijavi se</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="container">
+		<div class="col-xs-12 col-xs-8">
+			<div class="col-xs-6">
+				<div class="col-xs-3">
+					<img src="{{ site.baseurl }}/assets/images/logo.svg"
+					     alt="CodeCatz Logo">
+				</div>
+				<div class="col-xs-9">
+					<p>
+						CodeCatz delavnico organizira programerski klub CodeCatz
+						in Fakulteta za računalništvo in informatiko.
+					</p>
+					<p>
+						Vsaka udeleženka in udeleženec se mora držati kodeksa
+						obnašanja.
+					</p>
+					<p>
+						Slike na tej strani je posnela Hana Jošič.
+					</p>
+					<p>
+						Dodatne informacije so na voljo na <br>
+						<a href="#">info@codecatz.org</a>
+					</p>
+				</div>
+			</div>
+			<div class="sponsors col-xs-6">
+				<img src="/assets/images/fri-logo.svg" alt="FRI logo">
+			</div>
+		</div>
+	</div>
+</footer>
