@@ -1,9 +1,7 @@
----
----
 .jumbotron {
   background-color: rgba(233, 236, 241, 255);
-  background-image: url("{{site.baseurl}}/assets/images/header-cat.png"),
-  url("{{site.baseurl}}/assets/images/header-keyboard.png");
+  background-image: url("/codecatz.github.io/assets/images/header-cat.png"),
+  url("/codecatz.github.io/assets/images/header-keyboard.png");
   background-repeat: no-repeat;
   background-position: bottom right, top left;
   padding-top: 150px;
@@ -100,7 +98,7 @@
   background-color: #f4f4f4;
   text-align: center;
   padding: 50px 0;
-  background-image: url("{{site.baseurl}}/assets/images/background_cats.svg");
+  background-image: url("/codecatz.github.io/assets/images/background_cats.svg");
   background-repeat: no-repeat;
   background-position: 68% bottom;
   background-size: 500px;
