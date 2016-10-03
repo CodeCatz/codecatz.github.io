@@ -18,7 +18,7 @@ Are you a Code Kitten, who wants to dip her paws into the world of coding? We've
 {% assign category_links = category.links | sort: "date" %}
 	{% for link in category_links reversed %}
 - <a href="{{ link.url }}" target="_blank">{{ link.title }}</a>
-			{% if link.about %} - {{ link.about }}{% endif %}
+			{% if link.about %} - {{ link.about }}{% endif %}
 	{% endfor %}
 {% endfor %}
 
