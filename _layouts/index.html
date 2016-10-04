@@ -93,27 +93,37 @@ layout: default
 
 		<div class="mentor-list col-centered col-xs-12 col-md-8">
 			{% for mentor in site.data.mentors %}
-			<div class="mentor-data col-xs-6 col-sm-3">
-				<a href="{{mentor.social.link}}" target="_blank">
-					<img src="{{site.baseurl}}/assets/images/mentors/{{ mentor.image_name }}"
-					     alt="Mentor {{ mentor.name }}">
-					<div class="presentation clearfix">
-						<div class="icon col-xs-1">
-							{% if mentor.social.type == 'twitter' %}
-							<img src="{{site.baseurl}}/assets/images/twitter_icon.svg"
-							     alt="Twitter Icon">
-							{% elsif mentor.social.type == 'linkedin' %}
-							<img src="{{site.baseurl}}/assets/images/linkedin_icon.svg"
-							     alt="Linkedin Icon">
-							{% endif %}
-						</div>
-						<div class="col-xs-11">
-							{{ mentor.name }}
-						</div>
-					</div>
-				</a>
+			{% capture modulo %}{{ forloop.index0 | modulo:4 }}{%
+			endcapture %}
+			{% if forloop.first == true %}
+			<div class="row">
+				{% elsif modulo== '0' %}
 			</div>
-
+			<div class="row">
+				{% endif %}
+				<div class="mentor-data col-xs-6 col-sm-3">
+					<a href="{{mentor.social.link}}" target="_blank">
+						<img src="{{site.baseurl}}/assets/images/mentors/{{ mentor.image_name }}"
+						     alt="Mentor {{ mentor.name }}">
+						<div class="presentation clearfix">
+							<div class="icon col-xs-1">
+								{% if mentor.social.type == 'twitter' %}
+								<img src="{{site.baseurl}}/assets/images/twitter_icon.svg"
+								     alt="Twitter Icon">
+								{% elsif mentor.social.type == 'linkedin' %}
+								<img src="{{site.baseurl}}/assets/images/linkedin_icon.svg"
+								     alt="Linkedin Icon">
+								{% endif %}
+							</div>
+							<div class="col-xs-11">
+								{{ mentor.name }}
+							</div>
+						</div>
+					</a>
+				</div>
+				{% if loop.last == true %}
+			</div>
+			{% endif %}
 			{% endfor %}
 		</div>
 	</section>
