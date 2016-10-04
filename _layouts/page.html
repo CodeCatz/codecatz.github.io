@@ -1,11 +1,16 @@
 ---
 layout: default
 ---
-<div class="container-fluid page-bckg">
-	<div class="row">
-		<div class="col-md-12">
-			<div class="page-dscr">
-				{{ content }}
+<div class="background-wrapper">
+	<div class="content container">
+		<div class="logo col-centered col-xs-6 col-sm-2">
+			<img src="{{ site.baseurl }}/assets/images/logo.svg"
+			     alt="CodeCatz Logo">
+		</div>
+		<h1 class="align-center">CodeCatz</h1>
+		<div class="row">
+			<div class="col-centered col-xs-12 col-md-8">
+				{{content}}
 			</div>
 		</div>
 	</div>

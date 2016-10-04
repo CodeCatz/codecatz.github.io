@@ -1,0 +1,25 @@
+- name: Mateja Verlič Brunčič
+  image_name: mateja.jpeg
+  social:
+    link: https://twitter.com/sparkica
+    type: twitter
+- name: Alja Isakovič
+  image_name: alja.jpeg
+  social:
+    link: https://twitter.com/iAlja
+    type: twitter
+- name: Erika Pogorelc
+  image_name: erika.jpeg
+  social:
+    link: https://twitter.com/ercchy
+    type: twitter
+- name: Jure Čuhalev
+  image_name: jure.jpeg
+  social:
+    link: https://twitter.com/gandalfar
+    type: twitter
+- name: Jan Isakovič
+  image_name: jan.jpeg
+  social:
+    link: https://twitter.com/iYan
+    type: twitter
