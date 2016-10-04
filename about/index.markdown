@@ -46,7 +46,4 @@ Completed projects:
 {% for mention in sorted_mentions reversed %}
 - <a href="{{ mention.url }}" target="_blank">{{ mention.title }}</a> ({{ mention.date | date: "%B %Y" }})
 {% endfor %}
-	
-<div class="col-md-8">
-	<img class="illu-about" src="/assets/images/illustrations/catz_front_fill.png" >
-</div>
+

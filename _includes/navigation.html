@@ -2,16 +2,24 @@
 	<div class="container">
 		<nav class="collapse navbar-collapse" id="navbar">
 			<ul class="nav navbar-nav navbar-right">
-				<li>
-					<a href="{{ site.baseurl }}/about">
+				<li class="about-link">
+					<a href="{{ site.baseurl }}/about" {% if page.url == '/about/' %} class="active"{% endif %}>
 						O CodeCatz
 					</a>
 				</li>
-				<li>
-					<a class="navbar-cta" href="#sugnup">
+				{% if page.layout == 'page' %}
+				<li class="about-link">
+					<a href="{{ site.baseurl }}/">
+						Delavnica
+					</a>
+				</li>
+				{%else%}
+				<li class="signup-link">
+					<a class="navbar-cta" href="#signup">
 						Skoči na prijavo
 					</a>
 				</li>
+				{%endif%}
 			</ul>
 		</nav>
 	</div>

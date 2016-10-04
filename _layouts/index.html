@@ -3,23 +3,31 @@ layout: default
 ---
 <div class="jumbotron">
 	<div class="container">
-		<h1 id="jumbotron-heading col col-sm-5">Delavnica <br/>CodeCatz</h1>
-		<h5 id="jumbotron-subheading">Pridruži se nam na brezplačni celodnevni delavnici, ki jo CodeCatz organiziramo v soboto, 22. oktobra, in se z nami loti svoje prve spletne strani. Tudi če ni tvoja prva, bo tokrat zagotovo drugačna.
+		<h1 id="jumbotron-heading" class="col col-sm-5">Delavnica <br/>CodeCatz
+		</h1>
+		<h5 id="jumbotron-subheading">Pridruži se nam na brezplačni celodnevni
+			delavnici, ki jo CodeCatz organiziramo <strong> v soboto, 22.
+				oktobra</strong>, in se z nami loti svoje prve spletne strani.
+			Tudi če ni tvoja prva, bo tokrat zagotovo drugačna.
 		</h5>
 	</div>
 </div>
 
 <div class="container">
 
-	<div class="logo col-centered col-xs-4 col-sm-2">
-		<img src="/codecatz.github.io/assets/images/logo.svg"
+	<div class="logo col-centered col-xs-6 col-sm-2">
+		<img src="{{ site.baseurl }}/assets/images/logo.svg"
 		     alt="CodeCatz Logo">
 	</div>
 
 	<div class="highlight col-centered col-sm-8">
-		<p>Tokratna delavnica je namenjena predvsem začetnicam, kot si ti, ki se želite preizkusiti v nečem bolj tehnološkem kot je <i>le kava</i> s prijateljicami: na primer v izdelavi spletne strani. 
+		<p>Tokratna delavnica je namenjena predvsem začetnicam, kot si ti, ki se
+			želite preizkusiti v nečem bolj tehnološkem kot je <i>le kava</i> s
+			prijateljicami: na primer v izdelavi spletne strani.
 		</p>
-		<p>Na delavnici ti bodo prijazne mentorice in mentorji pomagali od prve do zadnje vrstice kode, da boš ob koncu dneva na spletu pustila svoj prvi digitalni odtis.</p>
+		<p>Na delavnici ti bodo prijazne mentorice in mentorji pomagali od prve
+			do zadnje vrstice kode, da boš ob koncu dneva na spletu pustila svoj
+			prvi digitalni odtis.</p>
 	</div>
 
 	<section class="tiles row">
@@ -30,27 +38,31 @@ layout: default
 		</div>
 		<div class="row">
 			<div class="tile col xs-12 col-md-4">
-				<img class="icon" src="/codecatz.github.io/assets/images/cv_icon.svg"
+				<img class="icon"
+				     src="{{site.baseurl}}/assets/images/cv_icon.svg"
 				     alt="Dopolni svoj CV">
 				<div class="title">CV na spletu</div>
 				<p>
-					Zakaj ne bi življenjepisa pripravila v spletni obliki? Vedno ti bo pri roki, lahko ga boš hitro urejala in enostavno delila z drugimi.
+					Zakaj ne bi življenjepisa pripravila v spletni obliki? Vedno
+					ti bo pri roki, lahko ga boš hitro urejala in enostavno
+					delila z drugimi.
 				</p>
 			</div>
 			<div class="tile col xs-12 col-md-4">
 				<img class="icon"
-				     src="/codecatz.github.io/assets/images/learn_icon.svg"
+				     src="{{site.baseurl}}/assets/images/learn_icon.svg"
 				     alt="Dopolni svoj CV">
 				<div class="title">Spletna stran to-go</div>
 				<p>
-					Delavnica je zasnovana zelo praktično. V soboto zvečer boš domov
+					Delavnica je zasnovana zelo praktično. V soboto zvečer boš
+					domov
 					odšla ne le z novim znanjem, temveč tudi z lastno spletno
 					stranjo.
 				</p>
 			</div>
 			<div class="tile col xs-12 col-md-4">
 				<img class="icon"
-				     src="/codecatz.github.io/assets/images/signpost_icon.svg"
+				     src="{{site.baseurl}}/assets/images/signpost_icon.svg"
 				     alt="Dopolni svoj CV">
 				<div class="title">Prijazno okolje</div>
 				<p>
@@ -67,104 +79,53 @@ layout: default
 		<h2>Mentorice in mentorji</h2>
 
 		<div class="subtitle col-centered col-md-8 ">
-			Dizajnerke in dizajnerji, programerke in programerji, spletne entuziastke in entuziasti - pridružite se nam! Všeč vam bo. Nam je vsakič.
-			Prijave za nove mentorice in mentorje zbiramo <a href="https://goo.gl/forms/ZBoqDaknk05AOhd03" target="_blank">tukaj</a>.
+			Dizajnerke in dizajnerji, programerke in programerji, spletne
+			entuziastke in entuziasti - pridružite se nam! Všeč vam bo. Nam je
+			vsakič.
+			Prijave za nove mentorice in mentorje zbiramo tukaj:
+			<br>
+			<a class="mentor-cta btn"
+			   href="https://goo.gl/forms/ZBoqDaknk05AOhd03"
+			   target="_blank">
+				Pridruži se mentorjem
+			</a>
 		</div>
 
 		<div class="mentor-list col-centered col-xs-12 col-md-8">
-			
-			<div class="mentor-data col-xs-2 col-sm-3">
-				<img src="/codecatz.github.io/assets/images/mentors/mentor.png"
-				     alt="Mentor Alja d Cat">
-				<div class="presentation clearfix">
-					<div class="icon col-xs-1">
-						
-						<img src="/codecatz.github.io/assets/images/twitter_icon.svg"
-						     alt="Twitter Icon">
-						
+			{% for mentor in site.data.mentors %}
+			<div class="mentor-data col-xs-6 col-sm-3">
+				<a href="{{mentor.social.link}}" target="_blank">
+					<img src="{{site.baseurl}}/assets/images/mentors/{{ mentor.image_name }}"
+					     alt="Mentor {{ mentor.name }}">
+					<div class="presentation clearfix">
+						<div class="icon col-xs-1">
+							{% if mentor.social.type == 'twitter' %}
+							<img src="{{site.baseurl}}/assets/images/twitter_icon.svg"
+							     alt="Twitter Icon">
+							{% elsif mentor.social.type == 'linkedin' %}
+							<img src="{{site.baseurl}}/assets/images/linkedin_icon.svg"
+							     alt="Linkedin Icon">
+							{% endif %}
+						</div>
+						<div class="col-xs-11">
+							{{ mentor.name }}
+						</div>
 					</div>
-					<div class="col-xs-9">
-						Alja d Cat
-					</div>
-				</div>
+				</a>
 			</div>
 
-
-			<div class="mentor-data col-xs-2 col-sm-3">
-				<img src="/codecatz.github.io/assets/images/mentors/mentor.png"
-				     alt="Mentor Mateja d Cat">
-				<div class="presentation clearfix">
-					<div class="icon col-xs-1">
-						<img src="/codecatz.github.io/assets/images/twitter_icon.svg"
-						     alt="Twitter Icon">
-					</div>
-					<div class="col-xs-9">
-						Mateja d Cat
-					</div>
-				</div>
-			</div>
-
-			<div class="mentor-data col-xs-2 col-sm-3">
-				<img src="/codecatz.github.io/assets/images/mentors/mentor.png"
-				     alt="Mentor Unknown">
-				<div class="presentation clearfix">
-					<div class="icon col-xs-1">
-						<img src="/codecatz.github.io/assets/images/twitter_icon.svg"
-						     alt="Twitter Icon">
-					</div>
-					<div class="col-xs-9">
-						Unknown
-					</div>
-				</div>
-			</div>
-
-			<div class="mentor-data col-xs-2 col-sm-3">
-				<img src="/codecatz.github.io/assets/images/mentors/mentor.png"
-				     alt="Mentor Mateja d Cat">
-				<div class="presentation clearfix">
-					<div class="icon col-xs-1">
-						
-						<img src="/codecatz.github.io/assets/images/twitter_icon.svg"
-						     alt="Twitter Icon">
-						
-					</div>
-					<div class="col-xs-9">
-						Mateja d Cat
-					</div>
-				</div>
-			</div>
-
-			
-			<div class="mentor-data col-xs-2 col-sm-3">
-				<img src="/codecatz.github.io/assets/images/mentors/mentor.png"
-				     alt="Mentor Mateja d Cat">
-				<div class="presentation clearfix">
-					<div class="icon col-xs-1">
-						
-						<img src="/codecatz.github.io/assets/images/twitter_icon.svg"
-						     alt="Twitter Icon">
-						
-					</div>
-					<div class="col-xs-9">
-						Mateja d Cat
-					</div>
-				</div>
-			</div>
-
-			
+			{% endfor %}
 		</div>
 	</section>
 </div>
-<section class="signup">
+<section id="signup" class="signup">
 	<div class="container">
 		<div class="col-centered col-md-10">
 
-			<h2 class="signup-title italic">Delavnica bo potekala 22. oktobra
-				2016 na
-				Fakulteti
-				za
-				Računalništvo in
-				informatiko v Ljubljani.</h2>
+			<h2 class="signup-title italic">
+				Delavnica bo potekala 22ega Oktobra 2016 na
+				Fakulteti za Računalništvo in Informatiko v Ljubljani.
+			</h2>
 			<div class="questions col-xs-12 col-md-6">
 				<ul class="question-list">
 					<li>Imaš v soboto, 22.10. čas?</li>
@@ -179,39 +140,10 @@ layout: default
 				Če si na vsa vprašanja odgovorila z "da", <br> se čim prej
 				prijavi!
 				<div class="cta-button-wrapper">
-					<a href="https://goo.gl/forms/Ry4IrLrWeH4Enxz22" target="_blank" class="btn btn-primary">Prijavi se</a>
+					<a href="https://goo.gl/forms/Ry4IrLrWeH4Enxz22"
+					   target="_blank" class="cta-button btn">Prijavi se</a>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<footer>
-	<div class="container">
-		<div class="col-xs-12 col-xs-8">
-			<div class="col-xs-6">
-				<div class="col-xs-3">
-					<img src="/codecatz.github.io/assets/images/logo.svg"
-					     alt="CodeCatz Logo">
-				</div>
-				<div class="col-xs-9">
-					<p>
-						Delavnico organiziramo CodeCatz
-						v sodelovanju s Fakulteto za računalništvo in informatiko.
-					</p>
-					<p>
-						Vsaka udeleženka in udeleženec se mora držati kodeksa
-						obnašanja.
-					</p>
-					<p>
-						Dodatne informacije so na voljo na <br>
-						<a href="#">info@codecatz.org</a>
-					</p>
-				</div>
-			</div>
-			<div class="sponsors col-xs-6">
-				<img src="/codecatz.github.io/assets/images/fri-logo.svg"
-				     alt="FRI logo">
-			</div>
-		</div>
-	</div>
-</footer>
