@@ -13,6 +13,11 @@
   social:
     link: https://twitter.com/ercchy
     type: twitter
+- name: Kaja Zupanc
+  image_name: kaja.jpg
+  social:
+    link: https://www.linkedin.com/in/kaja-zupanc-850250a7
+    type: linkedin
 - name: Jure Čuhalev
   image_name: jure.jpg
   social:
