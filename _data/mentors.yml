@@ -28,3 +28,13 @@
   social:
     link: https://twitter.com/iYan
     type: twitter
+- name: Danijel Pančič
+  image_name: danijel.jpg
+  social:
+    link: https://si.linkedin.com/in/danijel-pan%C4%8Di%C4%87-9a564a71
+    type: linkedin
+- name: Žiga Stopinšek
+  image_name: ziga.jpg
+  social:
+    link: https://si.linkedin.com/in/ddksr
+    type: linkedin
