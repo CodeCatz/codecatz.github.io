@@ -136,12 +136,17 @@
   }
 }
 
-.faq {
+.faq-section {
   text-align: center;
   padding-bottom: 20px;
 
   h2 {
     margin-bottom: 30px;
+  }
+  .faq {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    line-height: 2;
   }
 
   .question, .answer {
@@ -150,7 +155,6 @@
   .question {
     font-weight: bold;
   }
-
 
 }
 
