@@ -48,3 +48,19 @@
   social:
     link: https://si.linkedin.com/in/goranche
     type: linkedin
+- name: Livia Dobai
+  image_name: livia.jpg
+  social:
+    link: https://si.linkedin.com/in/liviadobai
+    type: linkedin
+- name: Marko Kotar
+  image_name: MarkoKotar.jpg
+  social:
+    link: https://si.linkedin.com/in/marko-kotar-4245902a
+    type: linkedin
+- name: Boštjan Cigan
+  image_name: bostjan.jpg
+  social:
+    link: https://twitter.com/bostjan_cigan
+    type: twitter
+  
