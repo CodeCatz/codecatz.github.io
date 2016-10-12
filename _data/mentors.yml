@@ -1,8 +1,8 @@
 - name: Mateja Verlič Brunčič
   image_name: mateja.jpeg
   social:
-    link: https://twitter.com/sparkica
-    type: twitter
+    link: https://si.linkedin.com/in/matejaverlic
+    type: linkedin
 - name: Alja Isakovič
   image_name: alja.jpeg
   social:
@@ -18,6 +18,11 @@
   social:
     link: https://twitter.com/MasikaMasa
     type: twitter
+- name: Mija Cevzar
+  image_name: mija.jpg
+  social:
+    link: https://www.linkedin.com/in/mijacevzar
+    type: linkedin
 - name: Jure Čuhalev
   image_name: jure.jpg
   social:
@@ -37,4 +42,9 @@
   image_name: ziga.jpg
   social:
     link: https://si.linkedin.com/in/ddksr
+    type: linkedin
+- name: Goran Blažič
+  image_name: goran.jpg
+  social:
+    link: https://si.linkedin.com/in/goranche
     type: linkedin
