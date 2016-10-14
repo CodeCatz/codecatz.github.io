@@ -68,4 +68,23 @@
   social:
     link: https://twitter.com/bostjan_cigan
     type: twitter
-  
+- name: Nina Vehovec
+  image_name: nina.jpg
+  social:
+    link: https://www.linkedin.com/in/nina-vehovec
+    type: linkedin
+- name: Miha Miklič
+  image_name: miha.jpg
+  social:
+    link: https://si.linkedin.com/in/mihamiklic
+    type: linkedin
+- name: Demjan Vester
+  image_name: demjan.jpg
+  social:
+    link: https://www.linkedin.com/in/vesterde/
+    type: linkedin
+- name: Biserka Cvetkovska
+  image_name: biserka.jpg
+  social:
+    link: https://www.linkedin.com/in/biserka-cvetkovska-88478734
+    type: linkedin
