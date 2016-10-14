@@ -53,6 +53,11 @@
   social:
     link: https://si.linkedin.com/in/liviadobai
     type: linkedin
+- name: Žan Andrle
+  image_name: zan.jpg
+  social:
+    lynk: https://www.linkedin.com/in/%C5%BEan-anderle-1766227a
+    type: linkedin
 - name: Marko Kotar
   image_name: MarkoKotar.jpg
   social:
