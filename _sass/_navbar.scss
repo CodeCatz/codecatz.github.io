@@ -42,6 +42,12 @@
       border-radius: 5px;
 
       padding: 15px 15px;
+
+      &.tutorial {
+        color: #a2ce62;
+        border-color: #a2ce62;
+      }
     }
+
   }
 }
