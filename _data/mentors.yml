@@ -95,3 +95,8 @@
     type: linkedin
 - name: Dunja Rosina
   image_name: dunja.jpg
+- name: Ana Šemrov
+  image_name: ana.jpg
+  social:
+    link: https://www.linkedin.com/in/anasemrov
+    type: linkedin
