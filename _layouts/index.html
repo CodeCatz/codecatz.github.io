@@ -102,7 +102,7 @@ layout: default
 			<div class="row">
 				{% endif %}
 				<div class="mentor-data col-xs-6 col-sm-3">
-					<a href="{{mentor.social.link}}" target="_blank">
+					{% if mentor.social.link %}<a href="{{mentor.social.link}}" target="_blank">{% endif %}
 						<img src="{{site.baseurl}}/assets/images/mentors/{{ mentor.image_name }}"
 						     alt="Mentor {{ mentor.name }}">
 						<div class="presentation clearfix">
@@ -119,7 +119,7 @@ layout: default
 								{{ mentor.name }}
 							</div>
 						</div>
-					</a>
+					{% if mentor.social.link %}</a>{% endif %}
 				</div>
 				{% if loop.last == true %}
 			</div>
