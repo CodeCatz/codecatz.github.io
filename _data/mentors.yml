@@ -100,3 +100,8 @@
   social:
     link: https://www.linkedin.com/in/anasemrov
     type: linkedin
+- name: Alenka Kavčič
+  image_name: alenka.jpg
+  social:
+    link: http://www.fri.uni-lj.si/si/alenka-kavcic/
+    type: linkedin
