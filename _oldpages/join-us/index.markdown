@@ -5,7 +5,7 @@ title: Join CodeCatz
 
 Are you female and are you learning programming because you have an awesome idea you want to build or because you’re wondering if you could turn talking to computers into a job?
 
-Awesome! Now here's the thing: we're not currently looking for new members, but we do have a list of <a href="/resources">resources</a> that can help you on your journey. If you want to build and publish a simple website, you can also test our <a href="http://codecatz.org/codecatz-tutorial/">Jekyll tutorial</a> (note: it's not quite finished yet, but we do welcome your feedback).
+Awesome! Now here's the thing: we're not currently looking for new members, but we do have a list of <a href="/resources">resources</a> that can help you on your journey. If you want to build and publish a simple website, you can also test our <a href="http://codecatz.si/codecatz-tutorial/">Jekyll tutorial</a> (note: it's not quite finished yet, but we do welcome your feedback).
 
 You can also follow us on <a href="https://facebook.com/CodeCatz" target="_blank">Facebook</a> and <a href="https://twitter.com/CodeCatz" target="_blank">Twitter</a> to find out about different workshops and opportunities for cool catz like you.
 

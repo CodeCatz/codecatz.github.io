@@ -5,7 +5,7 @@ start_date: 2015-05-06 18:00:00
 project_lead: ialja
 status: CURRENT
 repository: https://github.com/CodeCatz/codecatz-tutorial
-website: http://codecatz.org/codecatz-tutorial/
+website: http://codecatz.si/codecatz-tutorial/
 technologies: Jekyll
 ---
 
