@@ -48,12 +48,18 @@ footer {
   .sponsors {
     text-align: center;
     order: 3;
-    img {
-      width: 30%;
-      @media (max-width: $screen-md) {
+    @media (max-width: $screen-md) {
         margin-top: 33px;
+        }
+    img {
+      width: 100%;
+      @media (max-width: $screen-md) {
         width: 60%;
       }
+    }
+    .sponsor-type {
+      margin-bottom: 20px;
+      font-weight: 800;
     }
   }
 }
